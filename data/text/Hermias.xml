@@ -1,0 +1,2018 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema/tei_ms-3.rng"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Edizione digitale del papiro P. Tor. Choach. 12 </title>
+                <respStmt>
+                    <resp>Codifica e traduzione a cura di</resp>
+                    <name>Chiara Senatore</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Trascrizione a cura di </resp>
+                    <name> P. W. Pestman</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Revisione alla codifica a cura di</resp>
+                    <name> prof. Roberto Rosselli Del Turco</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Revisione alla traduzone a cura di</resp>
+                    <name> prof.ssa Rosa Maria Piccione</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Note esplicative a cura di</resp>
+                    <name>Mattia Ruben Rizzolo </name>
+                    <name>Chiara Senatore</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Fotoriproduzioni a cura di </resp>
+                    <name>Nicole Dell'Aquila/Museo Egizio</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority> Museo Egizio</authority>
+                <date>2025</date>
+                <availability status="unknown">
+                    <p>TPOP? </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>La trascrizione è quella presente in <author>Peter W. Pestman</author>,
+                        <title>Il processo di Hermias e altri documenti dell'Archivio dei Choachiti:
+                        &#40;P. Tor. Choachiti&#41;; papiri greci e demotici conservati a Torino e
+                        in altre collezioni d'Italia</title>, <pubPlace>Torino</pubPlace>,
+                        <publisher>Ministero per i Beni Culturali e Ambientali, Soprintendenza al
+                        Museo delle Antichità Egizie</publisher>, <date>1992</date>. </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement>Torino</settlement>
+                        <repository>Museo Egizio</repository>
+                        <idno type="inventario">Cat.2147</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary> Il papiro, scritto in greco, contiene gli atti legali di una
+                            contesa tra Horos, figlio di Harsiesis e i suoi colleghi Choachiti
+                            (="coloro che offrono le libagioni", un'organizzazione che si occupa dei
+                            culti funebri dei defunti), contro Hermias, per il possesso di una casa.
+                            Hermias vuole rivendicare il possesso della casa ma perde la causa. </summary>
+                        <textLang>Greco</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="roll">
+                            <supportDesc material="papyrus">
+                                <support>
+                                    <objectType>Rotolo di <material>papiro egizio</material>
+                                        di</objectType>
+                                    <dimensions>
+                                        <height>32 cm </height>
+                                        <dim>x</dim>
+                                        <width>192 cm</width>
+                                    </dimensions>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin> Il papiro è stato scritto nella città di Diòspolis Magna (Tebe) nel
+                            II secolo a.C.</origin>
+                        <provenance>Bernardino Drovetti acquistò il papiro nel 1824.</provenance>
+                    </history>
+                </msDesc>
+                <listPerson>
+                    <head> Lista persone</head>
+                    <person xml:id="Hermias">
+                        <persName> Hermias </persName>
+                        <affiliation>
+                            <roleName>uno dei <hi rend="italic">diàdochoi</hi>,</roleName>
+                            <roleName type="military"><hi rend="italic">hegemònos</hi></roleName>
+                        </affiliation>
+                        <note>Hermias è un cavaliere di origine greca che intenta una causa verso i
+                            choachiti per l’appropriazione, a suo dire illecita, di una casa e di un
+                            terreno che in origine appartenevano alla sua famiglia. Hermias denuncia
+                            più volte i sacerdoti per essersi appropriati di un terreno senza aver
+                            verificato che i venditori fossero gli effettivi proprietari. </note>
+                    </person>
+                    <person xml:id="Eracleide">
+                        <persName> Herakleides </persName>
+                        <affiliation>
+                            <roleName type="office">epistàtes</roleName>
+                            <roleName type="nobility">e uno degli <hi rend="italic"
+                                    >archisomatophylàcoi</hi></roleName>
+                        </affiliation>
+                        <note>Nome di origine greca derivato da Eracle, il celeberrimo eroe e
+                            semidio della mitologia greca. Herakleides fu coinvolto nel processo di
+                            Hermias in quanto una delle più alte autorità della regione: era infatti
+                                l’<roleName>epistàtes</roleName>, ovvero il funzionario incaricato
+                            di amministrare la giustizia in un territorio circoscritto.</note>
+                    </person>
+                    <person xml:id="Polemone">
+                        <persName> Polemon </persName>
+                        <affiliation>
+                            <roleName type="nobility">uno degli <hi rend="italic"
+                                    >archisomatophylàcoi</hi></roleName>
+                        </affiliation>
+                        <note> Polemone è un assessore chiamato a presenziare al processo. Insieme
+                            ad altri assessori, indicati in ordine di importanza, e
+                            all’amministratore della giustizia costituiscono il tribunale
+                            giudicante. Non è chiaro quale sia l’effettivo ruolo degli assessori nei
+                            processi, dato che la sentenza veniva pronunciata dall’amministratore
+                            della giustizia.</note>
+                    </person>
+                    <person xml:id="Eracleide2">
+                        <persName> Herakleides </persName>
+                        <affiliation>
+                            <roleName type="nobility">uno degli <hi rend="italic"
+                                    >archisomatophylàcoi</hi> e</roleName>
+                            <roleName type="office">gymnasiàrcha</roleName></affiliation>
+                        <note>È il secondo assessore per grado di importanza che presenzia al
+                            processo di Hermias.</note>
+                    </person>
+                    <person xml:id="Apollonio">
+                        <persName> Apollonios </persName>
+                        <affiliation>
+                            <roleName>uno dei <hi rend="italic">phìloi</hi></roleName>
+                        </affiliation>
+                        <note>È il terzo assessore per grado di importanza che presenzia al processo
+                            di Hermias.</note>
+                    </person>
+                    <person xml:id="Apollonio2">
+                        <persName>Apollonios</persName>
+                        <note>Padre di Apollonios, il terzo assessore per grado di importanza che
+                            presenzia al processo di Hermias.</note>
+                    </person>
+                    <person xml:id="Ermogene">
+                        <persName> Hermogenes </persName>
+                        <affiliation>
+                            <roleName>uno dei <hi rend="italic">phìloi</hi></roleName>
+                        </affiliation>
+                        <note>È il quarto assessore per grado di importanza che presenzia al
+                            processo di Hermias.</note>
+                    </person>
+                    <person xml:id="Pancrate">
+                        <persName> Pankrates</persName>
+                        <affiliation>
+                            <roleName>uno dei <hi rend="italic"
+                            >diàdochoi</hi></roleName></affiliation>
+                        <note>È il quinto assessore per grado di importanza che presenzia al
+                            processo di Hermias.</note>
+                    </person>
+                    <person xml:id="Comano">
+                        <persName> Komanos</persName>
+                        <affiliation>
+                            <roleName type="military">Comandante di piccola
+                            unità</roleName></affiliation>
+                        <note>È il sesto assessore per grado di importanza che presenzia al processo
+                            di Hermias.</note>
+                    </person>
+                    <person xml:id="Panisco">
+                        <persName>Paniskos</persName>
+                        <affiliation>
+                            <roleName type="military">Catoicos</roleName></affiliation>
+                        <note>È il settimo assessore per grado di importanza che presenzia al
+                            processo di Hermias.</note>
+                    </person>
+                    <person xml:id="Ammonio">
+                        <persName>Ammonios</persName>
+                        <note>Padre di Paniskos, il settimo assessore per grado di importanza che
+                            presenzia al processo di Hermias.</note>
+                    </person>
+                    <person xml:id="Tolomeo">
+                        <persName>Ptolemaios</persName>
+                        <note>Padre di Hermias. Fu costretto ad abbandonare il distretto di Ombite,
+                            circa 175 Km a Sud di Tebe, a causa di una ribellione fomentata dagli
+                            egizi locali contro i Greci. Nella fuga, molti abbandonarono le loro
+                            proprietà, perdendo anche tutta la relativa documentazione. Suo figlio,
+                            Hermias, viene in seguito a scoprire che una di queste proprietà
+                            abbandonate dalla sua famiglia anni prima era appena stata venduta dai
+                            nuovi proprietari ai choachiti. </note>
+                    </person>
+                    <person xml:id="Tolomeo2">
+                        <persName>Ptolemaios</persName>
+                        <affiliation>
+                            <roleName type="office">Epistàtes</roleName>
+                        </affiliation>
+                        <note>È l’amministratore della giustizia dell’anno 125 a.C.</note>
+                    </person>
+                    <person xml:id="Oro">
+                        <persName>Horos</persName>
+                        <note>Nome proprio di origine egizia. Horos è il capo della corporazione dei
+                            choachiti, impresari che si occupavano di portare le vivande alle mummie
+                            per garantire loro la vita nell’oltretomba. La corporazione si è formata
+                            attraverso l’unione matrimoniale di diverse famiglie di impresari: Horos
+                            assunse un ruolo di primo piano, divenendo il principale portavoce di
+                            tutto il gruppo. In questo processo, Hermias e i suoi avvocati chiamano
+                            in causa un membro per ciascuna famiglia. Horos, secondo la
+                            ricostruzione prosopografica condotta negli anni ’90 dal papirologo
+                            Pieter Pestman, appartiene alla Famiglia B.</note>
+                    </person>
+                    <person xml:id="Psencosi">
+                        <persName>Psenchosis</persName>
+                        <note>Nome grecizzato di origine egizia. Psenchonsis è uno dei
+                            rappresentanti dei choachiti che viene chiamato in causa da Hermias.
+                            Egli rappresenta la Famiglia A.</note>
+                    </person>
+                    <person xml:id="Conopre">
+                        <persName>Chonopres</persName>
+                        <note>Nome grecizzato di origine egizia. Chonopres è l’ultimo rappresentante
+                            dei choachiti chiamato in causa da Hermias. Egli rappresenta la Famiglia
+                            D.</note>
+                    </person>
+                    <person xml:id="Hermias2">
+                        <persName> Hermias</persName>
+                        <affiliation>
+                            <roleName type="military"><hi rend="italic">strategòs</hi>,</roleName>
+                            <roleName type="office"><hi rend="italic">nomàrches</hi>,</roleName>
+                            <roleName><hi rend="italic">syggenès</hi></roleName>
+                        </affiliation>
+                        <note>Hermias, omonimo di Hermias che intenta la causa contro gli impresari,
+                            è il destinatario della petizione del febbraio/marzo 117 a.C., ovvero
+                            del sesto tentativo di riappropriarsi del terreno. Hermias è lo <hi
+                                rend="italic">strategòs</hi> del distretto Perithebas, una sorta di
+                            governatore.</note>
+                    </person>
+                    <person xml:id="Hermias3">
+                        <persName>Hermias</persName>
+                        <note>Hermias è il padre di Hermon.</note>
+                    </person>
+                    <person xml:id="Demetrio">
+                        <persName> Demetrios </persName>
+                        <affiliation>
+                            <roleName type="office"><hi rend="italic">epistrategos</hi>,</roleName>
+                            <roleName><hi rend="italic">syggenès</hi></roleName></affiliation>
+                        <note>Demetrios è l’epistratego dell’intera Tebaide, la più alta autorità
+                            giuridica e governativa della regione. Hermias, giunto ormai al sesto
+                            tentativo, si era rivolto direttamente all’epistratego.</note>
+                    </person>
+                    <person xml:id="Arsiesio">
+                        <persName>Harsiesis</persName>
+                        <note>Padre di Chonopres, uno dei choachiti citati a giudizio da
+                            Hermias.</note>
+                    </person>
+                    <person xml:id="Tefibio">
+                        <persName>Teephibis</persName>
+                        <note>padre di Psenchonsis, uno dei choachiti citati a giudizio da
+                            Hermias.</note>
+                    </person>
+                    <person xml:id="Panas">
+                        <persName>Panas</persName>
+                        <note>Nome grecizzato di origine egizia. Panas è un rappresentante dei
+                            choachiti che viene chiamato in causa da Hermias. Egli rappresenta la
+                            Famiglia C.</note>
+                    </person>
+                    <person xml:id="Pecutio">
+                        <persName>Pechytis</persName>
+                        <note>Padre di Panas, uno dei choachiti citati a giudizio da Hermias.</note>
+                    </person>
+                    <person xml:id="Arsiesio2">
+                        <persName>Harsiesis</persName>
+                        <note>Padre di Chonopres, uno dei choachiti citati a giudizio da
+                            Hermias.</note>
+                    </person>
+                    <person xml:id="Lobate">
+                        <persName>Lobais</persName>
+                        <note> Si tratta di colei che ha venduto la casa e il terreno ai choachiti.
+                            Hermias, intorno al 125 a.C., accusa Lobais di aver venduto illegalmente
+                            la casa agli impresari: effettivamente Lobais ammette di non aver
+                            ricevuto alcun documento che certificasse la sua proprietà, per cui
+                            decide di sottoscrivere con Hermias un atto di rinuncia. </note>
+                    </person>
+                    <person xml:id="Erieo">
+                        <persName>Herieus</persName>
+                        <note>Il padre di Lobais, colei che ha venduta la casa e il terreno oggetto
+                            della contesa ai choachiti. </note>
+                    </person>
+                    <person xml:id="Dionisio">
+                        <persName>Dionysos</persName>
+                        <affiliation>
+                            <roleName type="office"><hi rend="italic">Eisagogèus</hi></roleName>
+                        </affiliation>
+                        <note>Funzionario, probabilmente di origine greca, che aveva il compito di
+                            raccogliere le istanze presentate agli addetti all’economia.</note>
+                        <note/>
+                    </person>
+                    <person xml:id="Aineas">
+                        <persName>Aineas</persName>
+                        <affiliation>
+                            <roleName type="military"><hi rend="italic">Strategòs</hi></roleName>
+                        </affiliation>
+                        <note>È lo stratego dell’anno 125 a.C. a cui Hermias si rivolge nel suo
+                            primo tentativo.</note>
+                    </person>
+                    <person xml:id="Filocle">
+                        <persName>Philokles</persName>
+                        <note>L’avvocato di Hermias. Hermias, o chi per lui, ripete alla commissione
+                            giudicante gli argomenti a favore della sua causa raccolti dall’avvocato
+                            Philokles. </note>
+                    </person>
+                    <person xml:id="Deinone">
+                        <persName>Deinon</persName>
+                        <note>L’avvocato che ha difeso Horos, il capo della corporazione dei
+                            choachiti. È probabile che in realtà Deinon sia l’avvocato di tutti gli
+                            impresari, ma che qui venga indicato solo per Horos in quanto primo
+                            interlocutore nel processo.</note>
+                    </person>
+                    <person xml:id="Armais">
+                        <persName>Harmais</persName>
+                        <note>Harmais, figlio di Nechtmonthes, è un sacerdote tebano che comprò da
+                            un tale Apollonio una parte del terreno che un tempo apparteneva alla
+                            famiglia di Hermias. </note>
+                    </person>
+                    <person xml:id="Nectomonto">
+                        <persName>Nechtmonthes</persName>
+                        <note>Padre di Harmais.</note>
+                    </person>
+                    <person xml:id="Apollonio3">
+                        <persName>Apollonios </persName>
+                        <note>Apollonio, figlio di Damon, è uno dei proprietari del terreno che
+                            rivendica Hermias. Apollonio ha venduto una parte del terreno al
+                            sacerdote Harmais. Quando Hermias denuncia tutti coloro che possiedono
+                            illegalmente il terreno, Harmais si fa indietro, facendo subentrare nel
+                            processo proprio Apollonio. Alla fine Apollonio accetta di sottoscrivere
+                            con Hermias un atto di rinuncia alla proprietà. </note>
+                    </person>
+                    <person xml:id="Damone">
+                        <persName>Damon</persName>
+                        <note>Padre di Apollonio, uno dei proprietari del terreno che rivendica
+                            Hermias.</note>
+                    </person>
+                    <person xml:id="Ermone">
+                        <persName>Hermon</persName>
+                        <note>Hermon, figlio di Hermias, è il nonno della madre di Hermias, colui a
+                            cui, secondo i registri, era registrata la terra venduta illegalmente da
+                            Apollonio.</note>
+                    </person>
+                    <person xml:id="Diastene">
+                        <persName>Diasthenes</persName>
+                        <affiliation>
+                            <roleName type="military"><hi rend="italic">Strategos</hi></roleName>
+                        </affiliation>
+                        <note>Era lo stratego del distretto quando iniziò la controversia.</note>
+                    </person>
+                    <person xml:id="Pamonte">
+                        <persName>Pamonthes</persName>
+                        <note>Pamonte, <hi rend="italic">topogrammatèus</hi>, un funzionario
+                            amministrativo di basso grado, solitamente aiutante del toparca,
+                            amministratore delle toparchie. </note>
+                    </person>
+                    <person xml:id="Filometore">
+                        <persName>Philometor</persName>
+                        <note>Si tratta di Tolomeo VI, qui citato per indicare la datazione degli
+                            atti di compravendita.</note>
+                    </person>
+                    <person xml:id="Elechio">
+                        <persName>Helekis</persName>
+                        <note>Ha venduto insieme ad altri una parte di terreno a Teephibis.</note>
+                    </person>
+                    <person xml:id="Tebaiaite">
+                        <persName>Tbaiais</persName>
+                        <note>Ha venduto insieme ad altri una parte di terreno a Teephibis.</note>
+                    </person>
+                    <person xml:id="Senerieus">
+                        <persName>Senerieus</persName>
+                        <note> Uno dei venditori dell’appezzamento di terra ai choachiti.</note>
+                    </person>
+                    <person xml:id="Erieo2">
+                        <persName>Herieus</persName>
+                        <note>Ha venduto insieme ad altri una parte di terreno a Teephibis.</note>
+                    </person>
+                    <person xml:id="Erieo3">
+                        <persName>Herieus</persName>
+                        <note>Altro nome del venditore Sisois. Ha venduto insieme ad altri una parte
+                            di terreno a Teephibis.</note>
+                    </person>
+                    <person xml:id="Senosorfibio">
+                        <persName>Senosorphibis</persName>
+                        <note>Uno dei venditori dell’appezzamento di terra ai choachiti.</note>
+                    </person>
+                    <person xml:id="Sisoite">
+                        <persName>Sisois</persName>
+                        <note> Uno dei venditori dell’appezzamento di terra ai choachiti. </note>
+                    </person>
+                    <person xml:id="Asos">
+                        <persName>Hasos</persName>
+                        <note>Uno dei choachiti accusati, figlio di Hasos.</note>
+                    </person>
+                    <person xml:id="Necoto">
+                        <persName>Nechoutes</persName>
+                        <note>Uno dei choachiti accusati, figlio di Hasos.</note>
+                    </person>
+                    <person xml:id="Necoto2">
+                        <persName>Nechoutes</persName>
+                        <note>Uno dei choachiti accusati, omonimo del fratello Nechoutes, sempre
+                            figlio di Hasos.</note>
+                    </person>
+                    <person xml:id="Asos2">
+                        <persName>Hasos</persName>
+                        <note>Hasos, il padre degli accusati Nechoutes I, Nechoutes II, Hasos e
+                            Nechouthis. Aveva acquistato anni prima un lotto di terra sempre da
+                            Helekis, Lobais, Tbaiais e Herieus. </note>
+                    </person>
+                    <person xml:id="Necuti">
+                        <persName>Nechouthis</persName>
+                        <note>È la sorella dei due Nechoutes e di Hasos, figlia di Hasos. </note>
+                    </person>
+                    <person xml:id="Ammonio2">
+                        <persName>Ammonios</persName>
+                        <note>Ammonios, ha venduto illegalmente un lotto del terreno di Hermias a
+                            Pechytes.</note>
+                    </person>
+                    <person xml:id="Patoto">
+                        <persName>Patous</persName>
+                        <note>Patous, uno dei choachiti accusati, figlio di Pechytes.</note>
+                    </person>
+                    <person xml:id="Pasemio">
+                        <persName>Pasemis</persName>
+                        <note>Pasemis, uno dei choachiti accusati, figlio di Pechytes.</note>
+                    </person>
+                    <person xml:id="Arpachemio">
+                        <persName>Harpchemis</persName>
+                        <note>Harpchemis, uno dei choachiti accusati, figlio di Pechytes.</note>
+                    </person>
+                    <person xml:id="Senanonio">
+                        <persName>Senamounis</persName>
+                        <note>Senamounis, uno dei choachiti accusati, figlio di Pechytes.</note>
+                    </person>
+                    <person xml:id="Zebendeti">
+                        <persName>Zbendetis</persName>
+                        <note>Non si tratta di un nome proprio: lo scriba, di origine greca, ha
+                            confuso il nome proprio di un venditore, Psenamounis, con uno dei titoli
+                            che possedeva, ovvero di Zbendetis, il “gioielliere del santuario di
+                            Bendetis”.</note>
+                    </person>
+                    <person xml:id="Epifane">
+                        <persName>Epifane</persName>
+                        <note>Il riferimento è al sovrano Tolomeo V in carica dal 204 al 180
+                            a.C..</note>
+                    </person>
+                    <person xml:id="Evergete">
+                        <persName>Evergete</persName>
+                        <note>Il riferimento è al sovrano Tolomeo VIII Evergete II in carica dal 170
+                            al 116 a.C..</note>
+                    </person>
+                </listPerson>
+                <listPlace>
+                    <place xml:id="Tebe">
+                        <placeName>Diòspolis Magna</placeName>
+                        <location>
+                            <geo>25.664781, 32.631884</geo>
+                        </location>
+                        <note>&#8220;La Grande città di Zeus&#8221; o &#8220;Diòspolis Magna&#8221;.
+                            Città dell’Alto Egitto identificata con Tebe. Con Alessandro Magno, a
+                            partire dal 331 a.C., l’Egitto fu militarmente occupato dai Greci, cosa
+                            che diede avvio a un processo di sincretismo culturale e sociale tra i
+                            dominatori e gli abitanti locali che trovò pieno compimento con la
+                            dinastia dei Tolemei. Il sincretismo partì in primo luogo dalla
+                            religione: il dio egizio Amon venne presto associato allo Zeus greco.
+                            Tebe, che presso gli abitanti locali prendeva il nome di &#8220;Città di
+                            Amon&#8221;, fu presto denominata dai Greci &#8220;Città di Zeus&#8221;,
+                            la Diòspolis. Per distinguere Tebe da altre città minori che tuttavia
+                            per i Greci assumevano la medesima denominazione, essa fu chiamata
+                            &#8220;Diòspolis Magna&#8221;, ovvero &#8220;La Grande città di
+                            Zeus&#8221;.</note>
+                    </place>
+                    <place xml:id="Perithebas">
+                        <placeName>Perithebas</placeName>
+                        <location>
+                            <geo>25.664781, 32.631884</geo>
+                        </location>
+                        <note> Letteralmente &#34;intorno a Tebe&#34;. Si tratta di un distretto
+                            &#40;nomòs&#41; della più ampia regione della Tebaide: esso comprende
+                            Tebe a Est del Nilo e una parte della necropoli posta a Ovest. Dato che
+                            il terreno oggetto di contesa nel processo di Hermias è posto nel
+                            Perithebas, a occuparsi della causa è Herakleides, l’amministratore
+                            della giustizia del distretto.</note>
+                    </place>
+                    <place xml:id="Omboi">
+                        <placeName>Ombites</placeName>
+                        <location>
+                            <geo> 24.452146834, 32.9284129896 </geo>
+                        </location>
+                        <note>È un distretto della Tebaide, 175 Km a Sud di Tebe, il cui centro
+                            principale è Ombos. Anticamente la sua capitale era Elefantina, ma in
+                            epoca ellenistica viene menzionata come metropoli Omboi. Si tratta della
+                            città natale della famiglia di Hermias.</note>
+                    </place>
+                    <place xml:id="Memnonia">
+                        <placeName>Memnoneia</placeName>
+                        <location>
+                            <geo>25.631139, 32.560331</geo>
+                        </location>
+                        <note>È una zona geografica di complessa identificazione. Fa parte del
+                            distretto del Pathyrites. Secondo i più recenti studi, si tratta di
+                            complessi templari posti a Ovest di Tebe, nei dintorni della necropoli,
+                            dove potevano alloggiare gli impresari e i sacerdoti che si occupavano
+                            delle liturgie funebri.</note>
+                    </place>
+                    <place xml:id="Latopolis">
+                        <placeName>Latopoli</placeName>
+                        <location>
+                            <geo>25.29346615, 32.55619925</geo>
+                        </location>
+                        <note>Latopoli, città della regione di Tebe. Attualmente il suo nome è
+                            Esna.</note>
+                    </place>
+                </listPlace>
+            </sourceDesc>
+        </fileDesc>
+
+    </teiHeader>
+    <facsimile xml:id="Cat2147">
+        <surface xml:id="H_surf_col1" corresp="#colonna1">
+            <graphic height="5633px" url="data/images/single/col1.jpg" width="4001px"/>
+            <zone corresp="#H_lb_col1_01" ulx="783" uly="1021" rend="visible" rendition="Line"
+                lrx="3179" lry="1228" xml:id="H_line_col1_1"/>
+            <zone corresp="#H_lb_col1_02" ulx="815" uly="1213" rend="visible" rendition="Line"
+                lrx="3523" lry="1391" xml:id="H_line_col1_2"/>
+            <zone corresp="#H_lb_col1_03" ulx="829" uly="1393" rend="visible" rendition="Line"
+                lrx="3728" lry="1542" xml:id="H_line_col1_3"/>
+            <zone corresp="#H_lb_col1_4" ulx="809" uly="1548" rend="visible" rendition="Line"
+                lrx="3567" lry="1662" xml:id="H_line_col1_4"/>
+            <zone corresp="#H_lb_col1_5" ulx="768" uly="1666" rend="visible" rendition="Line"
+                lrx="3562" lry="1800" xml:id="H_line_col1_5"/>
+            <zone corresp="#H_lb_col1_6" ulx="779" uly="1819" rend="visible" rendition="Line"
+                lrx="3645" lry="1940" xml:id="H_line_col1_6"/>
+            <zone corresp="#H_lb_col1_7" ulx="805" uly="1955" rend="visible" rendition="Line"
+                lrx="3591" lry="2065" xml:id="H_line_col1_7"/>
+            <zone corresp="#H_lb_col1_8" ulx="811" uly="2114" rend="visible" rendition="Line"
+                lrx="1880" lry="2247" xml:id="H_line_col1_8"/>
+            <zone corresp="#H_lb_col1_9" ulx="772" rend="visible" rendition="Line" uly="2222"
+                lrx="3518" lry="2364" xml:id="H_line_col1_9"/>
+            <zone corresp="#H_lb_col1_10" ulx="764" uly="2365" rend="visible" rendition="Line"
+                lrx="3537" lry="2522" xml:id="H_line_col1_10"/>
+            <zone corresp="#H_lb_col1_11" ulx="783" uly="2479" rend="visible" rendition="Line"
+                lrx="3754" lry="2626" xml:id="H_line_col1_11"/>
+            <zone corresp="#H_lb_col1_12" ulx="809" uly="2600" rend="visible" rendition="Line"
+                lrx="3652" lry="2737" xml:id="H_line_col1_12"/>
+            <zone corresp="#H_lb_col1_13" ulx="804" uly="2755" rend="visible" rendition="Line"
+                lrx="3632" lry="2850" xml:id="H_line_col1_13"/>
+            <zone corresp="#H_lb_col1_14" ulx="769" uly="2889" rend="visible" rendition="Line"
+                lrx="3565" lry="3008" xml:id="H_line_col1_14"/>
+            <zone corresp="H_lb_col1_15" ulx="817" uly="3032" rend="visible" rendition="Line"
+                lrx="3542" lry="3136" xml:id="H_line_col1_15"/>
+            <zone corresp="#H_lb_col1_16" ulx="817" uly="3148" rend="visible" rendition="Line"
+                lrx="3684" lry="3254" xml:id="H_line_col1_16"/>
+            <zone corresp="#H_lb_col1_17" ulx="819" uly="3286" rend="visible" rendition="Line"
+                lrx="3730" lry="3370" xml:id="H_line_col1_17"/>
+            <zone corresp="#H_lb_col1_18" ulx="816" uly="3397" rend="visible" rendition="Line"
+                lrx="3725" lry="3484" xml:id="H_line_col1_18"/>
+            <zone corresp="#H_lb_col1_19" ulx="829" uly="3515" rend="visible" rendition="Line"
+                lrx="3586" lry="3636" xml:id="H_line_col1_19"/>
+            <zone corresp="#H_lb_col1_20" ulx="827" uly="3625" rend="visible" rendition="Line"
+                lrx="3705" lry="3717" xml:id="H_line_col1_20"/>
+            <zone corresp="#H_lb_col1_21" ulx="808" uly="3755" rend="visible" rendition="Line"
+                lrx="3732" lry="3865" xml:id="H_line_col1_21"/>
+            <zone corresp="#H_lb_col1_22" ulx="814" uly="3882" rend="visible" rendition="Line"
+                lrx="3823" lry="3979" xml:id="H_line_col1_22"/>
+            <zone corresp="#H_lb_col1_23" ulx="831" uly="3984" rend="visible" rendition="Line"
+                lrx="3644" lry="4119" xml:id="H_line_col1_23"/>
+            <zone corresp="#H_lb_col1_24" ulx="808" uly="4110" rend="visible" rendition="Line"
+                lrx="3772" lry="4247" xml:id="H_line_col1_24"/>
+            <zone corresp="#H_lb_col1_25" ulx="808" uly="4242" rend="visible" rendition="Line"
+                lrx="3764" lry="4337" xml:id="H_line_col1_25"/>
+            <zone corresp="#H_lb_col1_26" ulx="813" uly="4358" rend="visible" rendition="Line"
+                lrx="3704" lry="4472" xml:id="H_line_col1_26"/>
+            <zone corresp="#H_lb_col1_27" ulx="828" uly="4487" rend="visible" rendition="Line"
+                lrx="3773" lry="4577" xml:id="H_line_col1_27"/>
+            <zone corresp="#H_lb_col1_28" ulx="829" uly="4574" rend="visible" rendition="Line"
+                lrx="3834" lry="4731" xml:id="H_line_col1_28"/>
+            <zone corresp="#H_lb_col1_29" ulx="845" uly="4677" rend="visible" rendition="Line"
+                lrx="3755" lry="4844" xml:id="H_line_col1_29"/>
+        </surface>
+    </facsimile>
+    <text n="La casa dei Choachiti: l'affare Hermias" xml:id="text">
+        <front n="Traduzione" xml:id="Traduzione">
+            <p style="text-align" rend="bold">Traduzione</p>
+            <p style="text-align" rend="bold">Colonna I</p>
+            <p>
+                <lb/><date>Anno 54, Hathyr 22</date>, <placeName ref="#Tebe">Diòspolis
+                    Magna</placeName><lb/>
+                <lb/>Davanti a <persName ref="#Eracleide">Herakleides</persName>, uno degli <hi
+                    rend="italic">archisomatophylàcoi</hi><note type="comment" n="1">Il termine,
+                    letteralmente “guardia del corpo (del re)”, è connesso alla complessa titolatura
+                    onorifica dell’Egitto Tolemaico. Tali titolature non sono pertanto da intendere
+                    in senso letterale ma sottolineavano semplicemente il prestigio di chi ne veniva
+                    investito. Cfr. <ref target="#Pestman" type="biblio">Pestman 1992</ref> p.
+                    xxxviii.</note>, <hi rend="italic"><roleName>epistàtes</roleName></hi><note
+                    type="comment" n="2">L’epistàtes era la prima autorità giudiziaria dell’Egitto
+                    Tolemaico. Egli aveva pieni poteri decisionali: si occupava della giustizia,
+                    tanto da essere citato anche come ἐπιστάτης τῶν φυλάκων (capo della polizia) e
+                    dell'amministrazione finanziaria del tempio. Infatti Herakleides viene citato
+                    anche come custode dei beni del nomos. Cfr. <ref target="#Montevecchi" type="biblio">Montevecchi 1973</ref>, p. 140 e ss.;
+                    Bagnall 2011, p. 573.</note> del <placeName ref="#Perithebas"
+                    >Perithebas</placeName> e responsabile delle entrate del distretto, essendo
+                presenti anche <persName ref="#Polemone">Polemon</persName> degli <hi rend="italic"
+                    >archisomatophylàcoi</hi>, <persName ref="#Eracleide2">Herakleides</persName>
+                degli <hi rend="italic">archisomatophylàcoi</hi> e <hi rend="italic"
+                    >gymnasiàrcha</hi><note type="comment" n="3">Letteralmente “capo del Ginnasio”.
+                    Si trattava di una carica annuale ed individuale, le cui funzioni erano quelle
+                    di occuparsi dell'organizzazione complessiva del ginnasio. I Gymnàsia erano non
+                    solo palestre pubbliche, ma anche luoghi di ritrovo per i Greci. In epoca
+                    Tolemaica, infatti, i Gymnàsia rappresentavano delle vere e proprie associazioni
+                    di greci presso le quali era possibile ascendere socialmente nella città. Il
+                    gymnasiàrca si occupava sia dell'aspetto finanziario (e.g. pagamento delle
+                    spese, approvigionamento dell'olio necessario per le attività fisiche,
+                    mantenimento dell'edificio) sia dell'aspetto religioso (e.g. sacrifici durante
+                    le cerimonie che avvenivano nel ginnasio). Egli godeva di grande fama ed era
+                    considerato il custode della cultura della comunità. Cfr. <ref target="#Paganini" type="biblio">Paganini 2021</ref>, pp.
+                    145-153; Zucker 1931.</note>, <persName ref="#Apollonio">Apollonios</persName>
+                figlio di <persName ref="#Apollonio2">Apollonios</persName> ed <persName
+                    ref="#Ermogene">Hermogenes</persName> dei <hi rend="italic">phìloi</hi><note
+                    type="comment" n="4">Titolo onorifico, letteralmente "gli amici (del re)". Cfr.
+                    <ref target="#Pestman" type="biblio">Pestman 1992</ref>, p. xxxviii.</note>, <persName ref="#Pancrate">Pankrates</persName>
+                dei <hi rend="italic">diàdochoi</hi><note type="comment" n="5">Titolo onorifico,
+                    letteralmente "i successori". Venivano indicati con questo nome i dignitari di
+                    corte di grado sociale più modesto. Cfr. <ref target="#Pestman" type="biblio">Pestman 1992</ref> p. xxxviii.</note>,
+                    <persName ref="#Comano">Komanos</persName>, comandante<note type="comment" n="6"
+                    >Si tratta di una nuova carica militare di epoca tolemaica, in greco hegemònos:
+                    è un comandante di grado inferiore a capo di un piccolo drappello di uomini. Si
+                    differenziava dallo strategòs, che invece era un comandante di un'unità
+                    dell'esercito più grande. Cfr. <ref target="#Bagnall2" type="biblio">Bagnall 2011</ref>, p. 525.</note>, <persName
+                    ref="#Panisco">Paniskos</persName>, figlio di <persName ref="#Ammonio"
+                    >Ammonios</persName>, dei catechi<note type="comment" n="7">Il termine indica un
+                    militare a cui è stato affidato un appezzamento di terra da parte del re. Alla
+                    morte di Alessandro Magno (323 a.C.) la dinastia Tolemaica divise l’Egitto tra i
+                    nuovi coloni greci: nello specifico affidò ai militari appezzamenti di terra
+                    (detto kléros) sottratti alla popolazione indigena. Il termine cateco indicava,
+                    dunque, appartenenti ad una casta privilegiata. Cfr. <ref target="#Bagnall2" type="biblio">Bagnall 2011</ref> p. 528;
+                    Montevecchi 1973, p. 143-144.</note> e molti altri ancora. Avendo <persName
+                    ref="#Hermias">Hermias</persName>, figlio di <persName ref="#Tolomeo"
+                    >Ptolemaios</persName>, di quelli che provengono dall'<placeName ref="#Omboi"
+                    >Ombites</placeName>, intentato causa contro i choachiti del luogo (<persName
+                    ref="#Oro">Horos</persName>, <persName ref="#Psencosi">Psenchosis</persName>,
+                    <persName ref="#Panas">Panas</persName>, <persName ref="#Conopre"
+                    >Chonopres</persName> e i fratelli di questi), si fece lettura della petizione
+                    <note type="comment" n="8">Il termine greco ὑπόμνημα indica una petizione
+                    indirizzata a un funzionario (al contrario di una ἔντευξις che è una petizione
+                    indirizzata ai sovrani), in materia civile o penale.</note> presentata a
+                    <persName ref="#Hermias2">Hermias</persName>, <hi rend="italic"
+                    >syggenès</hi><note type="comment" n="9">Titolo nobiliare onorifico,
+                    letteralmente "parente (del re)". Cfr. <ref target="#Pestman" type="biblio">Pestman 1992</ref>, p. xxxviii.</note>, <hi
+                    rend="italic">strategòs</hi><note type="comment" n="10">Lo stratego è una delle
+                    più alte cariche statali dell’Egitto tolemaico. Il termine richiama chiaramente
+                    lo strategòs di età classica, ossia il “comandante militare”. Pare che in Egitto
+                    questa carica abbia perduto con il tempo il suo originario significato militare
+                    per assumere caratteristiche civili, come primaria figura istituzionale di una
+                    regione.</note> e <hi rend="italic">nomàrches</hi><note type="comment" n="11">
+                    Era l’amministratore delle regioni egizie (nòmoi) prima che venisse sostituito
+                    dallo strategòs. In età tolemaica avanzata il nomarca divenne capo di piccole
+                    circoscrizioni territoriali dette nomarchie. </note>, da <persName
+                    ref="#Hermias">Hermias</persName> e inoltrata poi a me, la cui copia è:
+                <lb/><lb/> "A Hermias, <hi rend="italic">syggenès</hi>, <hi rend="italic"
+                    >strategòs</hi> e nomàrches, da <persName ref="#Hermias">Hermias</persName>,
+                figlio di <persName ref="#Tolomeo">Ptolemaios</persName>, uno dei <hi rend="italic"
+                    >diàdochoi</hi> e comandante in carica. <lb/><lb/>Quando nell'<date>anno 53 nel
+                    mese di Mekeir</date>, giunse a <placeName ref="#Tebe">Diòspolis
+                    Magna</placeName>
+                <persName ref="#Demetrio">Demetrios</persName>
+                <hi rend="italic">syggenès</hi> ed <hi rend="italic">epistràtegos</hi><note
+                    type="comment" n="12">La carica di epistràtegos è molto complessa da inquadrare.
+                    Sulla base della documentazione papiracea sappiamo che l’epistrategia era una
+                    carica istituzionale principalmente connessa alla zona della Tebaide: secondo
+                    David Thomas l’epistràtegos doveva assumere quelle caratteristiche militari che
+                    lo stratego tolemaico aveva perduto. L’epistràtegos, dunque, è la più alta
+                    autorità di una regione, inferiore solo al dieceta, il funzionario a diretto
+                    contatto con il re. Cfr. <ref target="#Thomas" type="biblio">Thomas 1975</ref>.</note>, consegnai una petizione contro
+                    <persName ref="#Oro">Horos</persName> figlio di <persName ref="#Arsiesio"
+                    >Harsiesis</persName>, <persName ref="#Psencosi">Psenchonsis</persName> figlio
+                di <persName ref="#Tefibio"> Teephibis</persName>, <persName ref="#Panas"
+                    >Panas</persName> figlio di <persName ref="#Pecutio">Pechytis</persName>,
+                    <persName ref="#Conopre">Chonopres</persName> figlio di <persName
+                    ref="#Arsiesio2">Harsiesis</persName> e contro i loro fratelli che svolgono le
+                liturgie nelle necropoli, che sono chiamati choachiti<note type="comment" n="13"
+                    >Letteralmente i “portatori di libagioni”. Le loro funzioni non sono chiare: dal
+                    nome, sembra che il loro incarico principale fosse portare le vivande al
+                    defunto, secondo l’idea che il defunto continuasse a vivere dopo la morte. Era
+                    un incarico molto redditizio: le famiglie del defunto pagavano costantemente i
+                    choachiti per garantire una continua produzione di cibo o offrivano direttamente
+                    un lotto di terra presso cui coltivare i cibi necessari. La rendita, tuttavia,
+                    non doveva essere altissima: si contano decine di mummie gestite da singoli
+                    choachiti, segno che il pagamento non dovesse essere ingente. </note>. In tale
+                petizione dichiarai: <lb/>- considerando che mi appartengono a <placeName
+                    ref="#Tebe">Diòspolis Magna</placeName> alcune proprietà dei miei avi che i miei
+                antenati possedettero per tutto il tempo in cui vissero; <lb/> - che gli imputati
+                che hanno il domicilio amministrativo nei <placeName ref="#Memnonia"
+                    >Memnoneia</placeName>, dove era stato concesso di abitare a loro e ai loro avi,
+                non si sono curati, in questi tempi così critici, di me in quanto abito altrove, ma
+                hanno invaso la mia casa -situata nella parte sud-ovest di <placeName ref="#Tebe"
+                    >Diòspolis</placeName>, a nord della via , che porta al fiume della grandissima
+                dea Hera, a sud della via che porta al santuario di Demetra-, della quale i muri
+                erano ancora in piedi<note type="comment" n="14">Hera e Demetra sostituiscono
+                    rispettivamente le divinità egizie Mut ed Epet. Dal momento in cui la burocrazia
+                    amministrativa passò nelle mani della classe ellenizzata (vale a dire persone
+                    che conoscevano la lingua e la cultura greca) vennero attribuiti nomi greci ai
+                    nomoi e alle loro capitali e i templi furono dedicati alle divinità greche
+                    corrispondenti. A volte questo processo era meramente formale: ci si limitava
+                    all'utilizzo del nome della divinità greca corrispondente, mentre il riferimento
+                    concreto rimaneva la divinità egizia. Altre volte, invece, le divinità egizie
+                    apparivano grecizzate anche nella raffigurazione pratica e altre ancora nacquero
+                    dei veri e propri culti di divinità greche in Egitto. Cfr. <ref target="#Bagnall2" type="biblio">Bagnall 2011</ref>, p. 225
+                    e p. 523.</note>;</p>
+            <p style="text-align" rend="bold">Colonna II</p>
+            <p>-che, ricorrendo alla violenza, dopo aver costruito le parti crollate, la abitano
+                rivendicando iniquamente dei diritti. <lb/>
+                <lb/>Informato di ciò, giunsi a <placeName ref="#Tebe">Diòspolis Magna</placeName>
+                <date>nell'anno 45</date> e, venuto a discussione con loro, essi dichiararono di
+                aver acquistato la casa da <persName ref="#Lobate">Lobais</persName>, figlia di
+                    <persName ref="#Erieo">Herieus</persName>. Perciò, nello stesso anno, depositai
+                una petizione indirizzata ai sovrani<note type="comment" n="15">Il termine (in greco
+                    ἔντευξις) è utilizzato nell’Egitto tolemaico per indicare le petizioni
+                    direttamente rivolte al re. Cfr. <ref target="#Pestman" type="biblio">Pestman 1992</ref>, p. 180; Bagnall 2004, p. 378;
+                    Montevecchi 1973, p. 189.</note> contro <persName ref="#Lobate"
+                    >Lobais</persName> per i <hi rend="italic">chrematistai</hi><note type="comment"
+                    n="16">Sono i giudici del tribunale. Con questo termine può essere anche inteso
+                    per estensione il tribunale reale, istituito da Tolomeo II Philadelpho, per i
+                    casi più importanti concernenti sia gli Egizi che i Greci. Accanto a questo
+                    tribunale furono istituiti i Dikasteria, tribunali solo per i Greci, e i
+                    Laokritai, tribunali locali solo per gli Egizi. Al tempo del processo, i
+                    chrematistai erano ormai stati stabilizzati in sedi permanenti: infatti, come si
+                    legge nel papiro, Hermias si reca a Tebe per gettare la sua petizione nel vaso
+                    dei chrematistai lì collocato.</note> nella regione di <placeName ref="#Tebe"
+                    >Diòspolis Magna</placeName> - il cui presidente (di tribunale) era <persName
+                    ref="#Dionisio">Dionysos</persName>- nel vaso collocato da loro a <placeName
+                    ref="#Tebe">Diòspolis Magna</placeName>, allo scopo di togliere loro ogni
+                pretesto. <lb/>E quando ci fu il mio processo contro di lei, <date>nel mese di
+                    Pachon dell'anno 45</date> di cui sopra, avendo compreso di non aver alcuna
+                garanzia poiché delle terre non aveva avuta una parte, e così neppure qualcuno dei
+                suoi avi, presentò insieme a me un accordo di rinuncia in cui dichiarava di non
+                esercitare diritti sulla casa, né per il presente né per il passato. <lb/>Stando
+                così le cose, gli accusati, dopo essere stati cacciati dalla casa poiché non avevano
+                nessun diritto, si ritirarono nei <placeName ref="#Memnonia">Memnoneia</placeName>
+                mentre io, che avevo subito un danno per un tempo piuttosto lungo, fui costretto a
+                tornare al luogo in cui mi ero stabilito, dal momento che costoro non sono più
+                venuti a parlarmi. <lb/>E quando in seguito sono andato spesso a <placeName
+                    ref="#Tebe">Diòspolis Magna</placeName>, quelli ogni volta se ne andavano. Non
+                accontentandosi di abitare nella mia casa, avevano anche lasciato lì dei cadaveri,
+                senza curarsi delle sanzioni che ne conseguono, e questo nonostante: <lb/>-la casa
+                si trovi lungo la via processionale di Hera e Demetra, le grandissime dee, per le
+                quali sono empi sia i corpi morti sia quelli che se ne prendono cura; <lb/>- il
+                precedente strategòs <persName ref="#Aineas">Aineas</persName> avesse scritto a
+                    <persName ref="#Tolomeo2">Ptolemaios</persName>, che a quel tempo era <hi
+                    rend="italic">epistàtes</hi>, di trasferire questa gente nei <placeName
+                    ref="#Memnonia">Memnoneia</placeName> come era stato anche in precedenza, sulla
+                base degli ordini del re che Tatas, il medico del re, gli aveva riferito; <lb/>-
+                riguardo agli stessi choachiti , <placeName ref="#Diastene">Diasthenes</placeName>,
+                il precedente strategòs, avesse scritto di farli trasferire. <lb/>Le copie di questi
+                scritti li depositerò al processo. <lb/>
+                <lb/>E quando fu ordinato loro, tramite gli uomini di <persName ref="#Demetrio"
+                    >Demetrios</persName>, di comparire in tribunale fino a che le nostre questioni
+                non si fossero concluse, quelli se ne andarono e non si presentarono. E dal momento
+                che <persName ref="#Demetrio">Demetrios</persName> era in procinto di partire,
+                chiesi che la decisione sulla petizione alle questioni con loro fosse presa da te.
+                Il documento, che era stato spedito, lo consegnai a <placeName ref="#Latopolis"
+                    >Latonpolis</placeName> nel mese di Phamenoth.<lb/>E dopo che tu scrivesti a
+                    <persName ref="#Tolomeo2">Ptolemaios</persName> che a quel tempo era (in carica
+                come) <hi rend="italic">epistàtes</hi>, di mandare quelli (in tribunale) affinché la
+                controversia con me fosse risolta e, dal momento che quelli non furono mandati,</p>
+            <p style="text-align" rend="bold">Colonna III</p>
+            <p>quando, <date>nel mese di Pauni dello stesso anno</date>, giungesti a <placeName
+                    ref="#Tebe">Diòspolis Magna</placeName> con <persName ref="#Demetrio"
+                    >Demetrios</persName> in occasione della traversata del grandissimo dio Ammone
+                    <note type="comment" n="17">Si tratta della traversata che avveniva in occasione
+                    di una grande festa tebana dedicata al dio Ammone durante la quale la stuatua
+                    del dio, giunta in barca sulla riva sinistra del fiume, veniva portata nei
+                    templi funerari dei re accompagnata da una processione. Cfr. <ref target="#Foucart" type="biblio">Foucart 1924</ref> e
+                    Baitalle 1952, p. 90.</note> e io ti consegnai la petizione di cui sopra contro
+                i convenuti sopracitati; e dopo che fu ordinato loro di comparire in tribunale ed
+                essi, sottraendosi al processo, non si presentarono, io per necessità navigai
+                indietro con te verso il (tuo) distretto. <lb/> Perciò ti chiedo<note type="comment"
+                    n="18">Dopo aver brevemente riassunto i tentativi precedenti, Hermias fa la sua
+                    richiesta allo strategòs. Questa viene introdotta dal verbo ἀξιῶ , che
+                    rappresenta il vervo introduttivo più comune per le richieste. Cfr. <ref target="#Baetens" type="biblio">Baetens
+                    2020</ref>, p. 185. In questo caso il verbo non è preceduto da nessun appellativo né
+                    da nessuna formula patetica, come spesso invece avveniva nelle petizioni
+                    indirizzate agli strategoi ma seguito dalla formula attenuativa “se ti sembra
+                    giusto” (ἀλλ' ἐὰν φαίνηται). Cfr. <ref target="#Dibitonto" type="biblio">Di Bitonto 1968</ref>, p. 71-74.</note> che tu, in
+                considerazione del danno arrecatomi da persone di empia natura ordini, se ti sembra
+                giusto, scriva ad <persName ref="#Eracleide">Herakleides</persName>, <hi
+                    rend="italic">epistàtes</hi> del <placeName ref="#Perithebas"
+                    >Perithebas</placeName>, di mandare a chiamare i colpevoli e di indagare su
+                queste cose, affinché quelli siano costretti ad andare via dalla casa, se dimostro
+                che le cose stanno così, e affinchè, portati in tribunale e dichiaratisi colpevoli
+                di aver depositato cadaveri nella casa citata, vengano condotti da te per ricevere
+                la giusta punizione. Una volta accaduto ciò, avrò ottenuto giustizia. <lb/>Sta'
+                    bene.<note type="comment" n="19">Formula generica conclusiva per il saluto. Cfr.
+                    <ref target="#Dibitonto" type="biblio">Di Bitonto 1968</ref>, p. 105.</note><lb/>
+                <lb/>A <persName ref="#Eracleide">Herakleides</persName>. <date>Anno 54, Phaophi
+                    21</date>. <lb/>
+                <lb/>Stando così le cose e avendo gli avvocati perorato le loro cause -<persName
+                    ref="#Filocle">Philokles</persName> per <persName ref="#Hermias"
+                    >Hermias</persName> e <persName ref="#Deinone">Deinon</persName> per <persName
+                    ref="#Horos">Horos</persName> e i suoi-; dopo che furono letti da questi a voce
+                alta i documenti che ognuno aveva scelto, tra quelli depositati e considerando che
+                    <persName ref="#Filocle">Philokles</persName> aveva citato argomenti simili a
+                quelli presenti nella petizione, questi lesse a voce alta dai documenti depositati:
+                <lb/>-una copia della petizione ai sovrani riguardo cui disse che <persName
+                    ref="#Hermias">Hermias</persName> l'aveva depositata nel vaso posto dai <hi
+                    rend="italic">chrematistai</hi> quando erano giunti a <placeName ref="#Tebe"
+                    >Diòspolis Magna</placeName> -il cui presidente (di tribunale) era <persName
+                    ref="#Dionisio">Dionysos</persName>- contro <persName ref="#Lobate"
+                    >Lobais</persName> figlia di <persName ref="#Erieo">Herieus</persName>, una di
+                coloro che avevano venduto la casa ad <persName ref="#Oro">Horos</persName> e i
+                suoi; e (aggiunse anche) che, quindi, Lobais presentò insieme a lui un atto di
+                rinuncia nel quale -disse- aveva dichiarato di non rivendicare il possesso della
+                casa né nel presente né nel passato; (e che tutto ciò era stato fatto) per lasciare
+                gli avversari, che non potevano appellarsi a nessun diritto, privi di ogni pretesto.
+                E disse che, in questo modo, <persName ref="#Hermias">Hermias</persName>, li aveva
+                tenuti lontani dal possesso della casa. <lb/>- (Lesse) parimenti un rapporto del <hi
+                    rend="italic">basilikòs grammatèus</hi><note type="comment" n="20">Funzionario
+                    amministrativo alle dirette dipendenze dello strategòs.</note> riguardo il quale
+                disse che, poiché fu intentato da <persName ref="#Hermias">Hermias</persName> un
+                processo presso i <hi rend="italic">chrematistai</hi> contro</p>
+            <p style="text-align" rend="bold">Colonna IV</p>
+            <p><persName ref="#Armais">Harmais</persName> figlio di <persName ref="#Nectomonto"
+                    >Nechtmonthes</persName>, uno tra i sacerdoti di Ammon di <placeName ref="#Tebe"
+                    >Diòspolis Magna</placeName>, relativamente a venti arure di campo di grano, le
+                quali, essendo degli avi di <persName ref="#Hermias">Hermias</persName>,
+                (l’avvocato) rese noto che <persName ref="#Apollonio3">Apollonios</persName> figlio
+                di <persName ref="#Damone">Damon</persName> le aveva vendute a <persName
+                    ref="#Armais">Harmais</persName> in modo non regolare; ed essendo subentrato
+                    <persName ref="#Apollonio3">Apollonios</persName> al posto di <persName
+                    ref="#Armais">Harmais</persName> nel processo ed essendo stato redatto dal <hi
+                    rend="italic">basilikòs grammatèus</hi> un rapporto per i <hi rend="italic"
+                    >chrematistai</hi> sulla base delle cose che erano state riportate dal <hi
+                    rend="italic">topogrammatèus</hi><note type="comment" n="21">Funzionario
+                    amministrativo alle dipendenze del toparchès, l’amministratore delle toparchie,
+                    divisioni territoriali di minore livello.</note> e dal <hi rend="italic"
+                    >komogrammatèus</hi><note type="comment" n="22">Funzionario amministrativo alle
+                    dipendenze del komarchès, l’amministratore dei villaggi rurali di minore
+                    grandezza.</note>sulla questione -vale a dire che la terra era stata registrata
+                a nome di <persName ref="#Ermone">Hermon</persName>, figlio di <persName
+                    ref="#Hermias3">Hermias</persName> e nonno della madre di <persName
+                    ref="#Hermias">Hermias</persName> e che <persName ref="#Apollonio3"
+                    >Apollonios</persName> aveva presentato insieme a questo un accordo di rinuncia,
+                rinunciando al possesso della terra- (l’avvocato) disse che con questa decisione era
+                stata fornita una prova importante per il processo intentato da quello contro
+                    <persName ref="#Oro">Horos</persName> e i suoi relativo alla casa; <lb/>-e
+                ancora (presentò) anche una copia dell'ordinanza secondo la quale i contratti egizi
+                non registrati sono nulli, e disse che non era possibile utilizzare i contratti
+                relativi alla casa depositati da Horos e i suoi; <lb/>- (lesse) le disposizioni
+                della legge locale secondo la quale se qualcuno presenta in tribunale un contratto
+                non garantito mediante giuramento<note type="comment" n="23">Si tende un contratto
+                    privo del giuramento di coloro che lo contraggono. In alcuni papiri sembra
+                    intendere un contratto con basi poco solide.</note> quest'ultimo non deve essere
+                usato, e che se qualcuno produce un contratto falso, questo deve essere strappato;
+                <lb/> -una disposizione della legge sulla garanzia, in base alla quale disse che i
+                convenuti dovevano intentare una causa nei confronti di quelli che avevano dato loro
+                (la casa); <lb/> -le altre delibere di <persName ref="#Hermias2">Hermias</persName>,
+                    <hi rend="italic">syggenes</hi>, <hi rend="italic">strategòs</hi> e <hi
+                    rend="italic">nomarches</hi>, alle quali erano allegate una lettera indirizzata
+                a lui scritta dallo <hi rend="italic">strategòs</hi>
+                <persName ref="#Diastene">Diasthenes</persName> (ad essa erano allegate anche una
+                lettera inviatagli dai sacerdoti di Ammon e una relazione di <persName
+                    ref="#Pamonte">Pamonthes</persName>, che era <hi rend="italic"
+                    >topogrammateus</hi>) e la lettera dello <hi rend="italic">strategòs</hi>
+                <persName ref="#Aineas">Aineas</persName> circa lo spostamento degli imbalsamatori
+                    (<hi>taricheutai</hi>)<note type="comment" n="24">Gli imbalsamatori erano coloro
+                    che si occupavano delle procedure di mummificazione del defunto. Questa funzione
+                    viene spesso attribuita al choachita, sebbene sia abbastanza certa la sua
+                    estraneità da queste attività specifiche.</note> da <placeName ref="#Tebe"
+                    >Diòspolis Magna</placeName> ai <placeName ref="#Memnonia"
+                >Memnoneia</placeName>; e, disse l’avvocato, anche da queste delibere conseguono per
+                    <persName ref="#Hermias">Hermias</persName> in qualche modo diritti di
+                proprietà; <lb/>-ordinanze in merito ai termini di prescrizione, sui quali
+                insistette nel dire che (i convenuti) non avevano agito nel tempo nonostante il
+                tempo fosse compiuto; <lb/>-e, in seguito alle cose che aveva dichiarato e letto
+                pubblicamente nella difesa, richiese che i convenuti fossero cacciati dalla casa e
+                che questa fosse ridata ad <persName ref="#Hermias">Hermias</persName>. Quando
+                    <persName ref="#Deinone">Deinon</persName>, che difendeva Horos e i suoi, prese
+                successivamente la parola, dichiarò che <persName ref="#Hermias">Hermias</persName>
+                facendo leva sul nulla aveva ingannato </p>
+            <p style="text-align" rend="bold">Colonna V</p>
+            <p><persName ref="#Oro">Horos</persName> e i suoi con ogni calunnia ed abuso, e aveva
+                causato a questi un grave danno che non si basava su alcun fondamento.
+                <lb/>(L'avvocato) aveva detto che la casa era dei coachiti anche in base a quanto
+                attestavano le copie dei contratti Egizi tradotti in lingua greca, che aveva
+                depositato, vale a dire: <lb/>-un documento redatto <date>nel mese di Pachon
+                    dell'anno 28</date> al tempo del <persName ref="#Filometore"
+                    >Philometor</persName>, secondo il quale <persName ref="#Tefibio"
+                    >Teephibis</persName>, padre di <persName ref="#Psencosi"
+                >Psenchonsis</persName>, uno degli imputati, e di <persName ref="#Conopre"
+                    >Chonopres</persName>, aveva comprato da <persName ref="#Elechio"
+                    >Helekis</persName>, <persName ref="#Lobate">Lobais</persName>, <persName
+                    ref="#Tebaiaite">Tbaiais</persName>, <persName ref="#Senerieus"
+                    >Senerieus</persName>, <persName ref="#Erieo2">Herieus</persName>, <persName
+                    ref="#Senosorfibio">Senosorphibis</persName> e <persName ref="#Sisoite"
+                    >Sisois</persName>- detto anche <persName ref="#Erieo3">Herieus</persName>-
+                (dunque da 7 persone), sette cubiti quadri e mezzo nella parte meridionale di dieci
+                cubiti di terreno non edificato, che appartenevano a quelli; <lb/>-un altro
+                documento, secondo il quale <persName ref="#Asos2">Hasos</persName>, padre degli
+                imputati <persName ref="#Necoto">Nechoutes</persName>, <persName ref="#Asos"
+                    >Hasos</persName>, di un altro <persName ref="#Necoto2">Nechoutes</persName> e
+                della sorella <persName ref="#Necuti">Nechoutis</persName>, aveva comprato dagli
+                stessi in modo simile due cubiti e mezzo nello stesso anno e nello stesso mese;
+                <lb/>-un altro documento redatto nel mese di Mesore dell'anno 35, sotto lo stesso
+                re, secondo il quale <persName ref="#Pecutio">Pechytes</persName>, padre degli altri
+                -cioè <persName ref="#Panas">Panas</persName>, <persName ref="#Patoto"
+                    >Patous</persName>, <persName ref="#Pasemio">Pasemis</persName>, <persName
+                    ref="#Arpachemio">Harpchemis</persName> e <persName ref="#Senanonio"
+                    >Senamounis</persName>- aveva comprato in modo simile da <persName
+                    ref="#Ammonio2">Ammonios</persName> e <persName ref="#Zebendeti"
+                    >Zbendetis</persName> la quarta parte che spettava a quelli della casa, pari a
+                tre cubiti e un terzo; <lb/> e poiché erano state pagate anche le tasse per il
+                contratto di vendita , (l’avvocato disse che) erano incontestabilmente questi i
+                proprietari della casa fino ad ora senza che alcuno avesse accampato diritti per 37
+                anni. <lb/>Addusse come prova anche disposizioni dei decreti sull’amnistia secondo
+                cui a coloro che sono stati proprietari di qualcosa si deve consentire che la
+                posseggano anche qualora non possano addurre come prova documenti relativi a tali
+                proprietà. <lb/>Passato anche ai documenti della controparte, e dopo che fu letta a
+                voce alta la petizione citata precedentemente, l’avvocato dichiarò che: <lb/>-in
+                essa il convenuto aveva apertamente dichiarato ai sovrani che suo padre era partito
+                insieme ad altri soldati da <persName ref="#Tebe">Diòspolis Magna</persName> verso
+                le regioni meridionali durante la rivolta che ci fu sotto il padre dei sovrani, il
+                dio <persName ref="#Epifane">Epiphanes</persName><note type="comment" n="25">Hermias
+                    è figlio di Ptolemaios, un soldato greco di quelli che nell'ottobre/novembre del
+                    205 si diedero alla fuga verso sud quando il condottiero egizio Hyrgonaphor
+                    conquista la città di Tebe e si proclama "Faraone". Durante la fuga del 205
+                    evidentemente i genitori di Hermias abbandonarono la casa in modo frettoloso al
+                    punto da far andare persi i titoli di proprietà.</note>; <lb/>-e disse che
+                calcolando gli anni -24 anni dal regno di <persName ref="#Epifane"
+                    >Epiphanes</persName>, 35 anni dal regno di <persName ref="#Filometore"
+                    >Philometor</persName>, 29 anni dal regno del dio <persName ref="#Evergete"
+                    >Evergetes</persName> (dall'anno 25 all'anno 53)-, questi ammontavano a 88;
+                dunque <persName ref="#Hermias">Hermias</persName>, testimoniando spontaneamente
+                contro se stesso, ha così reso chiaro che né suo padre né egli stesso avevano
+                vissuto a <placeName ref="#Tebe">Diòspolis Magna</placeName>, e in generale che non
+                gli rimaneva nessuna pretesa riguardo la casa, visto che rivendicava diritti dopo
+                così tanti anni e che nessun diritto di proprietà o di possesso su qualche proprietà
+                terriera risultava né a lui né </p>
+            <p style="text-align" rend="bold">Colonna VI</p>
+            <p>al padre dai tempi passati fino ad oggi. <lb/>Dichiarò inoltre- dal momento che
+                    <persName ref="#Hermias">Hermias</persName> non solo non aveva presentato né una
+                ricevuta di pagamento né altro documento che dimostrasse il possesso (della casa) ma
+                era anche incapace di fornire prove -che <persName ref="#Hermias">Hermias</persName>
+                malignamente e con l’inganno aveva depositato l’atto di rinuncia e che, essendo nove
+                i venditori e visto che <persName ref="#Oro">Horos</persName> e i suoi abitano la
+                casa e ne esercitano il pieno possesso, prima sarebbe stato necessario presentare
+                una petizione contro <persName ref="Oro">Horos</persName> e i suoi affinché essi
+                stessi, dopo aver di fatto citato in giudizio i venditori<note type="comment" n="26"
+                    >Il termine greco ἐπίσκηψις indica una denuncia formale, il primo passo per dare
+                    vita a un processo legale.</note>, facessero desistere <persName ref="#Hermias"
+                    >Hermias</persName> dalla lite con loro, portando a termine il processo contro
+                di lui, o anche, trasferendo il processo ai garanti, istituissero un processo sulla
+                garanzia, a condizione che il processo fosse pubblico e tutti fossero stati portati
+                in tribunale. <lb/>(Questo) se <persName ref="#Hermias">Hermias</persName> avesse
+                ritenuto realmente di intentare un processo con procedura regolare, seguendo le vie
+                legali e non di compiere un'azione malvagia tramando intrighi, dato che gli
+                avversari non sapevano se agisce in collusione con la sola <persName ref="#Lobate"
+                    >Lobais</persName>, la stessa che non aveva più la facoltà di accampare diritti
+                sulla casa poiché aveva venduto la propria parte -vale a dire un settimo di sette
+                cubiti e mezzo- e dal momento che a questa spettava un solo cubito sulla base di un
+                documento di quelli citati precedentemente. <lb/>(L’avvocato),dimostrando
+                -relativamente alla procedura- che le cose erano come dichiarato e riprendendo dai
+                documenti depositati da <persName ref="#Hermias">Hermias</persName> circa un altro
+                processo che -disse- (<persName ref="#Hermias">Hermias</persName>) aveva avuto con
+                    <persName ref="#Armais">Harmais</persName> e <persName ref="#Apollonio3"
+                    >Apollonios</persName>, affermò: <lb/>- che <persName ref="#Hermias"
+                    >Hermias</persName> aveva dichiarato che <persName ref="#Apollonio3"
+                    >Apollonios</persName> aveva venduto ad <persName ref="#Armais"
+                    >Harmais</persName> una parte della terra che (<persName ref="#Hermias"
+                    >Hermias</persName>) sosteneva essere la propria; <lb/>-che aveva mosso un'
+                accusa non contro <persName ref="#Apollonio3">Apollonios</persName> che aveva
+                venduto la casa ma contro <persName ref="#Armais">Harmais</persName> che l'aveva
+                comprata e la possedeva; <lb/>-che <persName ref="#Armais">Harmais</persName>, dopo
+                aver citato in giudizio il venditore <persName ref="#Apollonio3"
+                    >Apollonios</persName>, aveva trasferito il processo e che questi (<persName
+                    ref="#Apollonio3">Apollonios</persName>) aveva rivendicato i propri diritti
+                contro <persName ref="#Hermias">Hermias</persName> sulla base del processo che prima
+                era stato intentato precedentemente contro <persName ref="#Armais"
+                    >Harmais</persName> quale compratore e possessore; <lb/>-che, di conseguenza,
+                non era rimasta ad <persName ref="#Hermias">Hermias</persName> nessun argomento a
+                proposito dell’atto di rinuncia con <persName ref="#Lobate">Lobais</persName> né,
+                con questo atto, sono stati cacciati <persName ref="#Oro">Horos</persName> e i suoi.
+                <lb/>Circa l'ordinanza sulla registrazione, (l'avvocato) dichiarò che non era di
+                supporto in nulla ad <persName ref="#Hermias">Hermias</persName>, poiché questi
+                aveva riconosciuto nella stessa petizione che <persName ref="#Lobate"
+                    >Lobais</persName> insieme ai suoi fratelli aveva venduto la casa ad <persName
+                    ref="#Oro">Horos</persName> e ai suoi fratelli, e, una volta venuto a conoscenza
+                di ciò, aveva gettato la petizione contro <persName ref="#Lobate">Lobais</persName>
+                (nel vaso delle petizioni). </p>
+            <p style="text-align" rend="bold">Colonna VII</p>
+            <p>(L’avvocato dichiarò) di avere questa stessa linea difensiva anche per quanto
+                riguarda ciò che <persName ref="#Hermias">Hermias</persName> aveva depositato a
+                partire dale leggi locali relative alla garanzia mediante giuramento dei contratti,
+                rendendo chiaro inoltre che, se anche fossero stati giudicati davanti ai giudici di
+                un tribunale locale (<hi rend="italic">laokritai</hi>)<note type="comment" n="27">Un
+                    tribunale costituito da Tolomeo II Philadelpho per i soli processi tra egizi.
+                    Per estensione con il termine si indicano anche i giudici del tribunale
+                    medesimo.</note> sulla base delle leggi che <persName ref="#Hermias"
+                    >Hermias</persName> aveva depositato, per prima cosa bisognava che <persName
+                    ref="#Hermias">Hermias</persName> desse prova di essere figlio di <persName
+                    ref="#Tolomeo">Ptolemaios</persName> e di quella che dice essere sua madre, e
+                del fatto che questi siano i discendenti dei parenti che menzionano, prima si doveva
+                richiedere a <persName ref="#Hermias">Hermias</persName> le prove circa la casa.
+                <lb/>E allo stesso modo anche secondo le leggi delle città greche e i decreti
+                approvati in quelle assemblee, (sarebbe necessario che) Hermias, dopo aver fornito
+                le stesse dimostrazioni e aver accettato di pagare l’imposta (sulle successioni) ,
+                registrasse la successione o altrimenti pagherà di diecimila dracme e le
+                disposizioni legali che ha fatto sono prive di valore e non è possibile per lui
+                entrare in possesso dei beni dei defunti. <lb/>E ancora (dichiarò che): <lb/>-
+                poiché i grandissimi sovrani hanno assolto tutti i sudditi da tutte le accuse
+                (ricevute) <date>entro il diciannovesimo giorno del mese di Thoth dell'anno
+                    53</date>, anche i contratti depositati da lui sono inattaccabili; <lb/>-il
+                titolo di possesso e il diritto di proprietà della casa ad <persName ref="#Oro"
+                    >Horos</persName> e ai suoi erano stati garantiti in ragione di queste stesse
+                amnistie e secondo i decreti promulgati da quelli e dai loro predecessori intorno a
+                coloro che esercitano il possesso, anche qualora qualcuno dimostrasse che quelli (i
+                choachiti) non hanno depositato i contratti, soprattutto adesso che producono gli
+                atti di proprietà e rivendicano il possesso della casa facendo leva sui decreti e
+                sull’amnistia; <lb/>-l'avversario non aveva depositato alcuna prova. <lb/> Circa le
+                ordinanze depositate sui termini di prescrizione, (l’avvocato) disse che: <lb/>-se
+                anche qualcuno concedesse a chi attenta ai beni altrui e vi mette le mani di
+                accampare diritti, ciò non deve essere concesso per un periodo di tempo superiore ad
+                un un anno o anche a due o a tre, e questo periodo non deve essere concesso
+                indistintamente a tutti ma a coloro che hanno un certo diritto; <lb/>-ciò non deve
+                essere concesso per tutto il periodo, e cioè quello del padre di <persName
+                    ref="#Hermias">Hermias</persName>, fino alla sua morte, e di <persName
+                    ref="#Hermias">Hermias</persName> stesso, che è già avanti con gli anni ed è
+                giunto nel periodo dell’estrema vecchiaia, dal momento che nessuno dei due ha mai
+                abitato a <placeName ref="#Tebe">Diòspolis Magna</placeName>, dunque a questi non
+                rimane alcun diritto di proprietà su un possedimento terriero poiché sono trascorsi
+                così tanti anni e poiché (<persName ref="#Hermias">Hermias</persName>) non ha mai
+                addotto alcuna prova. <lb/>(L’avvocato) depositò anche una sentenza (proveniente da
+                un processo precedente), dichiarando: <lb/>-che era stato scritto <date>l'ottavo
+                    giorno del mese di Payni dell'anno 51</date>, secondo il quale disse che
+                    <persName ref="#Hermias">Hermias</persName> quando era giudicato davanti a
+                    <persName ref="#Tolomeo2">Ptolemaios</persName>
+                <lb/>-che era stato epistàtes prima di colui che era stato epistàtes prima di me-
+                era stato sconfitto nel processo contro questi; <lb/>-e che non fosse permesso ad
+                    <persName ref="#Hermias">Hermias</persName>
+            </p>
+            <p style="text-align" rend="bold">Colonna VIII</p>
+            <p> di disturbare continuamente <persName ref="#Oro">Horos</persName> e i suoi, ma di
+                lasciare che questi fossero i proprietari (della casa). <lb/>Passato poi anche al
+                documento che <persName ref="#Hermias">Hermias</persName> aveva depositato a
+                proposito del processo che, disse (l’avvocato), questi aveva intentato contro
+                    <persName ref="#Armais">Harmais</persName> ed <persName ref="#Apollonio3"
+                    >Apollonios</persName>, fece vedere che: <lb/>-che ciò che (Hermias) presentava
+                era estraneo alla causa; <lb/>-che non si deve permettere ad <persName
+                    ref="#Hermias">Hermias</persName> di spostare su un’altra scena la controversia
+                avvenuta con altri su una qualunque cosa, dato che non gli serve assolutamente a
+                nulla nel processo in corso con <persName ref="#Horos">Horos</persName> e i suoi
+                circa la loro casa. <lb/>Allo stesso modo, anche circa gli atti che aveva presentato
+                sul trasferimento nei <placeName ref="#Memnonia">Memnoneia</placeName> degli
+                imbalsamatori (<hi>taricheutai</hi>) del luogo disse: <lb/>-che anche questi
+                documenti sono molto distanti (dalla lite); <lb/>-che è molto più evidente il fatto
+                che <persName ref="#Hermias">Hermias</persName> fosse consapevole di non avere alcun
+                diritto e si presentasse a depositare con un atteggiamento da informatore e da
+                accusatore, pensando di poter spaventare i suoi avversari:infatti <persName
+                    ref="#Horos">Horos</persName> e i suoi non sono imbalsamatori (<hi rend="italic"
+                    >taricheutai</hi>) ma custodi delle mummie (choachiti) e non svolgono lo stesso
+                lavoro ma si differenziano da questi per il tipo di incarico. <lb/>E ancora,
+                <lb/>-in occasione delle feste pubbliche legali e ufficiali, questi, trasportano la
+                sabbia e la spargono sul corso di Ammon e attraverso il tempio e, dopo essere
+                entrati nel tempio di Hera, fanno la stessa cosa; <lb/>-ogni anno in occasione delle
+                processioni di Ammon nei <placeName ref="#Memnonia">Memnoneia</placeName>, guidando
+                la processione svolgono i compiti che ad essi spettano e che sono propri dei
+                choachiti (in quel contesto)<note type="comment" n="28">Sebbene l'incarico
+                    principale sembri essere quello di portare le vivande al defunto, le fonti
+                    papiracee sembrano comunque conferire una funzione molto più ampia al choachita:
+                    egli era a tutti gli effetti un manager che gestiva tutti i vari momenti del
+                    rito funebre, dall’imbalsamazione del corpo fino all’atto di sepoltura. Le
+                    mansioni non erano direttamente svolte dal choachita, al quale spettava il
+                    compito finale di portare le vivande al defunto, bensì da imbalsamatori
+                    direttamente da lui chiamati. </note> e queste sono le loro prerogative;
+                <lb/>-ma che anche gli imbalsamatori (<hi rend="italic">taricheutai</hi>) hanno un
+                decreto in virtù del quale questi non (devono) essere infastiditi. <lb/>E
+                (l’avvocato disse che): <lb/>-se anche qualcuno stabilisse una cosa non vera, ossia
+                che gli imbalsamatori (<hi rend="italic">taricheutai</hi>) siano stati trasferiti,
+                nessuno -neppure <persName ref="#Hermias">Hermias</persName>- ha il potere di
+                impossessarsi di una qualche proprietà di quelli; <lb/>-ognuno di loro è senza
+                dubbio padrone della propria proprietà e, se la vende o se la cede ad altri, (ne)
+                riceve un prezzo; <lb/>-<persName ref="#Hermias">Hermias</persName>, introducendo
+                cose che non sono né per nulla pertinenti al processo in corso né di sua competenza,
+                e da intrigante arrogandosi un potere che è proprio dello <hi rend="italic"
+                    >strategòs</hi>, cosicché è chiaro che si è spinto, non avendo assolutamente
+                alcuna prova e vestendo i panni di un delatore, a depositare documenti relativi agli
+                imbalsamatori (<hi rend="italic">taricheutai</hi>) e ancora quelli contro <persName
+                    ref="#Armais">Harmais</persName> ed <persName ref="#Apollonio3"
+                    >Apollonios</persName> e gli altri documenti, come se gli fossero molto utili;
+                <lb/>-se davvero credeva di avere un qualche diritto per mezzo del quale poteva
+                convincere il giudice e non </p>
+            <p style="text-align" rend="bold">Colonna IX</p>
+            <p><lb/>-che, se davvero credeva di avere qualche diritto per mezzo del quale poteva
+                convincere il giudice anche senza vantare i documenti citati precedentemente, non si
+                sarebbe fatto convincere a depositare altri documenti che non gli erano affatto
+                utili. <lb/>Dato che: <lb/>-(gli avvocati) hanno pronunciato una tale difesa e altre
+                argomentazioni; <lb/>-<persName ref="#Hermias">Hermias</persName> non presenta alcun
+                titolo di proprietà né un altro documento così da provare che la casa contestata
+                fosse certamente sua o dei suoi antenati, bensì dichiara che la casa è la sua
+                soltanto a parole e con mera retorica; <lb/>-<persName ref="#Oro">Horos</persName> e
+                i suoi hanno dimostrato con adeguata documentazione che i propri antenati avevano
+                comprato la casa in questione da <persName ref="#Elechio">Helekis</persName>, da
+                    <persName ref="#Lobate">Lobais</persName> e dagli altri che sono stati citati
+                -in tutto nove persone- conformemente ai contratti egizi in base ai quali sono state
+                anche pagate le relative tasse per il contratto di vendita; <lb/>-hanno mostrato
+                inoltre che, dai tempi dei contratti, i loro genitori erano proprietari per tutto il
+                tempo in cui vissero e che, dopo la morte di questi, anch’essi sono
+                incontestabilmente proprietari fino al presente, senza che mai nessuno abbia
+                accampato diritti durante questi anni; <lb/>-hanno depositato anche una disposizione
+                di un’ordinanza pubblicata <date>nell'anno 26</date> sulle amnistie relative ai
+                proprietari e una copia di una sentenza scritta nel processo tenutosi per loro
+                davanti a <persName ref="#Tolomeo2">Ptolemaios</persName>, che era
+                    <roleName>epistàtes</roleName> prima del mio predecessore, in cui si ordinava di
+                non rivendicare alcunché, dal momento che <persName ref="#Hermias"
+                    >Hermias</persName> non aveva depositato nulla. <lb/>E io stesso, attenendomi ai
+                contratti depositati da questi e alle ordinanze disposte dai sovrani circa la
+                proprietà privata, poiché nessun documento è stato depositato contro i
+                contratti,</p>
+            <p style="text-align" rend="bold">Colonna X</p>
+            <p>Ho detto ad <persName ref="#Hermias">Hermias</persName> di non introdursi con la
+                forza, e ad <persName ref="#Oro">Horos</persName> e ai suoi di esercitare il
+                possesso sulla casa come è stato fatto sin dall'inizio. </p>
+           
+        </front>
+        <body>
+
+            <head>Cat. 2147</head>
+            <pb n="colonna 1" xml:id="colonna1" facs="data/images/single/col1.jpg"/>
+            <div n="La petizione di Hermias" type="1">
+                <l><lb facs="#H_line_col1_1" xml:id="H_lb_col1_1"/><date> Ἔτους νδ Ἁθὺρ κβ</date> ἐν
+                        <placeName ref="#Tebe">Διὸς πόλει τῆι Μεγάληι</placeName>
+                </l>
+                <lb facs="#H_line_col1_2" xml:id="H_lb_col1_2"/>
+                <l>ἐφ' <persName ref="#Eracleide">Ἡρακλείδου</persName>τῶν ἀρχισωματοφυλάκων καὶ
+                        <roleName ref="#epistates"><ref
+                            target="https://www.treccani.it/enciclopedia/epistate_(Enciclopedia-Italiana)/"
+                            >ἐπιστάτου</ref></roleName></l>
+                <lb facs="#H_line_col1_3" xml:id="H_lb_col1_3"/>
+                <l>τοῦ <placeName ref="#Perithebas">Περὶ Θήβας</placeName> καὶ ἐπί τῶν προσόδων τοῦ
+                    νομοῦ, συνπαρόντων </l>
+                <lb facs="#H_line_col1_4" xml:id="H_lb_col1_4"/>
+                <l><persName ref="#Polemone">Πολέμωνος</persName> τῶν ἀρχισωματοφυλάκων, <persName
+                        ref="#Eracleide2">Ἡρακλείδου</persName> τῶν </l>
+                <lb facs="#H_line_col1_5" n="5" xml:id="H_lb_col1_5"/>
+                <l>αὐτῶν καὶ <roleName>γυμνασιάρχου</roleName>, <persName ref="#Apollonio"
+                        >Ἀπολλωνίου</persName> τοῦ <persName ref="#Apollonio2">Ἀπολλωνίου</persName>
+                    καὶ </l>
+                <lb facs="#H_line_col1_6" xml:id="H_lb_col1_6"/>
+                <l><persName ref="#Ermogene">Ἑρμογένου<supplied reason="omitted"
+                        >ς</supplied></persName> τῶν φίλων, <persName ref="#Pancrate"
+                        >Παγκράτου</persName> τῶν διαδόχων, <persName ref="#Comano"
+                        >Κομάνου</persName></l>
+                <lb facs="#H_line_col1_7" xml:id="H_lb_col1_7"/>
+                <l><roleName>τῶν ἡγεμόνων</roleName>, <persName ref="#Panisco">Πανίσκου</persName>
+                    τοῦ <persName ref="#Ammonio">Ἀμμωνίου</persName>
+                    <roleName>τῶν κατοίκων</roleName></l>
+                <lb facs="#H_line_col1_8" xml:id="H_lb_col1_8"/>
+                <l>καὶ ἄλλων πλειόνων. </l>
+                <lb facs="#H_line_col1_9" xml:id="H_lb_col1_9"/>
+                <l>Καταστάντος <persName ref="#Hermias">Ἐρμίου</persName> τοῦ <persName
+                        ref="#Tolomeo">Πτολεμαίου</persName> τῶν ἐκ <unclear>τ</unclear>οῦ
+                        <placeName ref="#Omboi">Ὀμβίτου</placeName></l>
+                <lb facs="#H_line_col1_10" xml:id="H_lb_col1_10" n="10"/>
+                <l>πρὸς τοὺς ἀπὸ τοῦ τόπου χοαχύτας <persName ref="#Oro">Ὧρον</persName> καὶ
+                        <persName ref="#Psencosi">Ψενχῶνσιν</persName>
+                    <persName ref="#Panas"><supplied reason="omitted">καὶ
+                        Πανᾶν</supplied></persName></l>
+                <lb facs="#H_line_col1_11" xml:id="H_lb_col1_11"/>
+                <l>καὶ <persName ref="#Conopre">Χονοπρῆν</persName> καὶ τοὺς τούτων ἀδελφούς,
+                    ἀνεγνώσθη τὸ ἐπιδοθὲν</l>
+                <lb facs="#H_line_col1_12" xml:id="H_lb_col1_12"/>
+                <l><persName ref="#Hermias2">Ἑρμίαι</persName>
+                    <roleName>τῶι συγγενεῖ</roleName> καὶ <roleName>στρατηγῶι</roleName> καὶ
+                            <roleName>νομάρχ<unclear>η</unclear>ι</roleName> παρὰ τοῦ </l>
+                <lb facs="#H_line_col1_13" xml:id="H_lb_col1_13"/>
+                <l><persName ref="#Hermias">Ἑρμίου</persName> ὑπόμνημα, ἀναπεμφθὲν δὲ ἐφ' ἡμᾶς, οὗ
+                    ἐστιν ἀντίγραφον·</l>
+                <lb facs="#H_line_col1_14" xml:id="H_lb_col1_14"/>
+                <l><persName ref="#Hermias2">Ἑρμίαι</persName>
+                    <roleName>συγγενεῖ</roleName> καὶ <roleName>στρατηγῶι</roleName> καὶ
+                            <roleName>νομάρ<unclear>χη</unclear>ι </roleName><unclear>π</unclear>αρ'
+                        <persName ref="#Hermias">Ἑρμίου</persName></l>
+                <lb facs="#H_line_col1_15" xml:id="H_lb_col1_15" n="15"/>
+                <l>τοῦ <persName ref="#Tolomeo">Πτολεμαίου</persName> τῶν περὶ αὐλὴν διαδόχων καὶ
+                            <roleName><unclear>ἡ</unclear>γεμόνος</roleName></l>
+                <lb facs="#H_line_col1_16" xml:id="H_lb_col1_16"/>
+                <l>ἐπ' ἀνδρῶν. <date>Τοῦ νγ <expan>ἔτους</expan> Μεχεὶρ</date> ἐπιβαλόντος εἰς
+                        <placeName ref="#Tebe">Διὸς πόλιν τὴν</placeName></l>
+                <lb facs="#H_line_col1_17" xml:id="H_lb_col1_17"/>
+                <l>Μεγάλην <persName ref="#Demetrio">Δημητρίου</persName> τοῦ συγγενοῦς καὶ
+                        <roleName>ἐπιστρατήγου</roleName> ἐπέδωκα </l>
+                <lb facs="#H_line_col1_18" xml:id="H_lb_col1_18"/>
+                <l>ὑπόμνημα κατὰ <persName ref="#Oro">Ὥρου</persName>τοῦ <persName ref="#Arsiesio"
+                        >Ἁρσιήσιος</persName> καὶ <persName ref="#Psencosi">Ψενχών<supplied
+                            reason="omitted">σ</supplied>ιος</persName>τοῦ <persName ref="#Tefibio"
+                            >Τεεφ<unclear>ίβ</unclear>ιος</persName>,</l>
+                <lb facs="#H_line_col1_19" xml:id="H_lb_col1_19"/>
+                <l><persName ref="#Panas">Πανᾶτος</persName> τοῦ <persName ref="#Pecutio"
+                        >Πεχύτιος</persName>, <persName ref="#Conopre">Χονοπρέους</persName> τοῦ
+                        <persName ref="#Arsiesio2">Ἁρσιήσιο<unclear>ς</unclear></persName> καὶ
+                    τῶν</l>
+                <lb facs="#H_line_col1_20" n="20" xml:id="H_lb_col1_20"/>
+                <l>τούτων ἀδελφῶν τῶν τὰς λειτουργίας ἐν ταῖς <unclear>ν</unclear>εκρίαις παρεχο- </l>
+                <lb facs="#H_line_col1_21" xml:id="H_lb_col1_21"/>
+                <l>μένων, καλουμένων δέ χοαχυτῶν, δι' οὗ προηνεγκάμην, ὅτι ὑπαρ- </l>
+                <lb facs="#H_line_col1_22" xml:id="H_lb_col1_22"/>
+                <l>χόντων μοι ἐν <placeName ref="#Tebe">τῆι Διὸς πόλει</placeName> προγονικῶν
+                    κτήσεων, ὧν οἱ πρόγονοί μου </l>
+                <lb facs="#H_line_col1_23" xml:id="H_lb_col1_23"/>
+                <l>κεκυρίευκαν, ἐφ' ὅσον περιῆσαν <supplied reason="omitted">χρόνον</supplied>, οἱ
+                        <unclear>ἐ</unclear>νκαλούμενοι τὴν κατοικίαν </l>
+                <lb facs="#H_line_col1_24" xml:id="H_lb_col1_24"/>
+                <l>ἔχοντες ἐν <placeName ref="#Memnonia">τοῖς Μεμνονείοις</placeName>, οὗπερ
+                        <unclear>σ</unclear>υνκεχωρημένον αὐτοῖς ἐστιν</l>
+                <lb facs="#H_line_col1_25" n="25" xml:id="H_lb_col1_25"/>
+                <l>καὶ τοῖς προγόνοις αὐτῶν οἰκεῖν, ἐν δὲ τῆι τῶν καιρῶν περιστάσει</l>
+                <lb facs="#H_line_col1_26" xml:id="H_lb_col1_26"/>
+                <l>καταγνόντες ἐπὶ τῶι ἄλλου τὴν κατοικίαν ἔχειν με, ἐπελθόντες ἐπί</l>
+                <lb facs="#H_line_col1_27" xml:id="H_lb_col1_27"/>
+                <l>μίαν μου οἰκίαν, ἥ ἐστιν ἐκ τοῦ ἀπὸ νότου καὶ λιβὸς <placeName ref="#Tebe">τῆς
+                        Διὸς πόλεως</placeName> ἀπὸ </l>
+                <lb facs="#H_line_col1_28" xml:id="H_lb_col1_28"/>
+                <l>βορρᾶ τοῦ δρόμου τοῦ φέροντος ἐπὶ ποταμὸν τῆς μεγίστης θεᾶς Ἥρας, ἀπὸ νότου</l>
+                <lb facs="#H_line_col1_29" xml:id="H_lb_col1_29"/>
+                <l>τοῦ φέροντος ἐπὶ τὸ Δημήτριον, ἧς τοῖχοι περιῆσαν, καὶ τῆι περὶ ἑαυτοὺς βίαι</l>
+                <pb n="colonna 2" xml:id="colonna2" facs="data/images/single/col2.jpg"/>
+                <lb/>
+                <l>χρησάμενοι, ἐπισκευάσαντες τὰ καθειρημένα μέρη ἐνοικοῦσιν</l>
+                <lb/>
+                <l>ἀντιποιούμενοι ἀδίκως. Ὑπὲρ ὧν μεταλαβόντος μου παρεγενήθην</l>
+                <lb/>
+                <l>εἰς τὴν <placeName ref="#Tebe">Διὸς πόλιν</placeName> ἐν τῶι με
+                        <expan>ἔτει</expan> καὶ εἰς λόγους αὐτοῖς ἐλθόντος προ-</l>
+                <lb/>
+                <l>ηνέγκαντο παρὰ <persName ref="#Lobate">Λοβάιτος</persName> τῆς <persName
+                        ref="#Erieo">Ἑριέως</persName> ἐωνῆσθαι. Ὅθεν ἐν τῶι αὐτῶι</l>
+                <lb n="5"/>
+                <l> ἔτει τοῖς ἐν τῆι Θηβαίδι <roleName>χρηματισταῖς</roleName> ἐνέβαλον ἔντευξιν εἰς
+                    τὸ</l>
+                <lb/>
+                <l>προτεθὲν ὑπ' αὐτῶν ἀγγεῖον ἐν<placeName ref="#Tebe"> τῆι Διὸς πόλει</placeName>
+                    ὧν ἦν <roleName>εἰσαγωγεὺς</roleName></l>
+                <lb/>
+                <l><persName ref="#Dionisio">Διονύσιος</persName>, κατὰ τῆς <persName ref="#Lobate"
+                        >Λοβάιτος</persName> πρὸς τὸ ἀπροφασίστους αὐτοὺς κατα-</l>
+                <lb/>
+                <l>στῆσαι, καὶ γενομένης μοι καταστάσεως πρὸς αὐτὴν ἐν τῶι</l>
+                <lb/>
+                <l><date>Παχὼν μηνὶ τοῦ προκειμένου με <expan>ἔτους</expan></date>, αἰσθομένη ὡς
+                    οὐθὲν</l>
+                <lb n="10"/>
+                <l>εἶχεν βέβαιον, ἕνεκεν τοῦ καὶ τῶν γῶν μὴ μετεσχηκέναι αὐτήν</l>
+                <lb/>
+                <l>μητὲ τῶν προγόνων αὐτῆς μηθένα, συνεισέδωκέ μοι συνχώρησιν,</l>
+                <lb/>
+                <l>καθ' ἣν ἐδελοῦτο μήτε πρότερον μήτε νῦν ἀντιποιεῖσθαι τῆς οἰκίας.</l>
+                <lb/>
+                <l>Τούτων οὕτως ἐχόντων οἱ ἐνκαλούμενοι ἀποθλιβέντες τ<unclear>ῶ</unclear>ι</l>
+                <lb/>
+                <l>μηθενὸς δικαίου ἀντέχεσθαι ἀνεχώρησαν εἰς τὰ <placeName ref="#Memnonia"
+                        >Μεμνόνεια</placeName>,</l>
+                <lb n="15"/>
+                <l> ἐγὼ δ' ἐφ' ἱκανὰς ἡμέρας καταφθαρεὶς ἠναγκάσθην, τῶν ἀνθρώπων</l>
+                <lb/>
+                <l>μὴ ἐρχομένων εἰς τὰς χεῖρας, ἀναλῦσαι εἰς τὸ τετα<unclear>γ</unclear><supplied
+                        reason="lost">μένο</supplied><unclear>ν</unclear> . Καὶ </l>
+                <lb/>
+                <l>μετὰ ταῦτα πολλάκις ἐπιβεβληκότος <supplied reason="omitted">μου</supplied> εἰς
+                    τὴν <placeName ref="#Tebe">Διὸς πόλιν</placeName> ἐκκλί<unclear>νοντ</unclear>ες </l>
+                <lb/>
+                <l> οὑ διαλείπουσιν. Οὐκ ἀρκεσθέντες δὲ ἐπὶ τῶι ἐνοικεῖν <unclear>ἐν</unclear> τῆι </l>
+                <lb/>
+                <l>ἐμῆι οἰκίαι, ἀλλὰ καὶ νεκροὺς ἀπηρεισμένοι τυγχάνουσιν
+                    <unclear>ἐ</unclear>νταῦθα, </l>
+                <lb n="20"/>
+                <l> οὑ στοχασάμενοι τῶν ἐξακολουνθούντων αὐτοῖς ἐπιτίμων, καὶ </l>
+                <lb/>
+                <l>ταῦτα οὔσης ἐπὶ τοῦ δρόμου τῆς Ἥρας καὶ Δήμητ<unclear>ρ</unclear>ος τῶν μεγίστων </l>
+                <lb/>
+                <l>θεῶν, αἷς ἀθέμιτά ἐστιν νεκρὰ σώματα καὶ οἱ ταῦτα θεραπεύοντες, </l>
+                <lb/>
+                <l>καίπερ <persName ref="#Aineas">Αἰνέου</persName> τοῦ στρατηγήσαντος γράψαντος
+                        <persName ref="#Tolomeo2">Πτολεμαίωι</persName> τῶι </l>
+                <lb/>
+                <l>τότε ἐπιστατοῦντι τὸ ἔθνος μεταγαγεῖν εἰς τὰ <placeName ref="#Memnonia"
+                        >Μεμνόνεια</placeName>,</l>
+                <lb n="25"/>
+                <l> καθότι καὶ πρότερον, ἐξ ὧν προσανήνεγκεν αὐτῶι Τατᾶς </l>
+                <lb/>
+                <l>ὁ βασιλικὸς ἰατρὸς προστεταχέναι τὸν βασιλέα, καὶ περὶ τοῦ αὐτοῦ </l>
+                <lb/>
+                <l>ἔθνους ἐτύγχανεν <persName ref="#Diastene">Διασθένης</persName> ὁ στρατηγήσας
+                    γεγραφὼς μετα- </l>
+                <lb/>
+                <l>γαγεῖν αὐτοὺς, ὧν καὶ παραθήσομαι ἀντίγραφα ἐπὶ τῆς καταστάσεως. </l>
+                <lb/>
+                <l>Καὶ διὰ τῶν παρὰ <persName ref="#Demetrio">Δημητρίου</persName> παραγγελέντος
+                    αὐτοῖς ἔρχεσθαι </l>
+                <lb/>
+                <l n="30"> ἐπὶ τὸ κριτήριον μέχρι τοῦ τὰ καθ' ἡμᾶς διεξαχθῆναι, οἱ δ'
+                    ἐκτοπίσαντες</l>
+                <lb/>
+                <l>οὐκ ἀπήντησαν. Τοῦ δὲ <persName ref="#Demetrio">Δημετρίου</persName> χωριζομένου
+                    ἠξίωσα, ἵνα </l>
+                <lb/>
+                <l>χρηματισθῇ σοὶ τὸ ὑπόμνημα ὑπὲρ τῶν κατ' αὐτοὺς, ὃ καὶ ἀποσταλὲν</l>
+                <lb/>
+                <l>ἀπέδωκα ἐν <placeName ref="#Latopolis">Λάτων πόλει</placeName> ἐν τῶι Φαμενὼθ
+                    μηνί. Καὶ σοῦ γράψαντος </l>
+                <lb/>
+                <l><persName ref="#Tolomeo2">Πτολεμαίωι</persName> τῶι τότ'
+                        <roleName>ἐπιστατοῦντι</roleName> ἐξαποστεῖλαι αὐτοὺς, ὅπως </l>
+                <lb n="35"/>
+                <l> διεξαχθῆι τὰ καθ' ἡμᾶς καὶ μὴ ἐξαποσταλέντων, ἐν δὲ τῶι Παῦνι</l>
+                <pb n="colonna 3" xml:id="colonna3" facs="data/images/single/col3.jpg"/>
+                <lb/>
+                <l>τοῦ αὐτοῦ ἔτους ἐπιβαλόντος σου εἰς τὴν Διὸς πόλιν <del><supplied>σὺν τῶι
+                            Δη</supplied></del></l>
+                <lb/>
+                <l><surplus>εἰς τὴν Διὸς πόλιν</surplus> σὺν τῶι <persName ref="#Demetrio"
+                        >Δημητρίωι</persName> πρὸς τὴν διάβασιν</l>
+                <lb/>
+                <l>τοῦ μεγίστου θεοῦ Ἄμμωνος καὶ ἐπιδόντος <supplied reason="omitted">μού</supplied>
+                    σοι τὸ προκείμενον</l>
+                <lb/>
+                <l>ὑπόμνημα κατὰ τῶν σημαινομένων καὶ παραγγελέντος</l>
+                <lb n="5"/>
+                <l> αὐτοῖς ἀπαντᾶν ἐπὶ τὸ κριτήριον, φυγοδικοῦντες οὐκ ἀπήντησαν, </l>
+                <lb/>
+                <l>κατὰ <supplied reason="omitted">δὲ</supplied> τὸ ἀναγκαῖον τὸν
+                        ἀνάπλ<unclear>ου</unclear>ν ἐποιησάμην ἅμα σοὶ </l>
+                <lb/>
+                <l> ἐπί τοὺς τόπους. Διὸ ἀξιῶ ἐμβλέψαντα εἰς τὴν γεγενημένην μοι </l>
+                <lb/>
+                <l> καταφθορὰν ὑπὸ ἀσεβῶν ἀνθρώπων, ἀλλ' ἐὰν φαίνηται </l>
+                <lb/>
+                <l> συντάξαι γράψαι <persName ref="#Eracleide">Ἡρακλείδει</persName> τῶι ἐπὶ τοῦ
+                        <placeName ref="#Perithebas">Περὶ Θήβας</placeName> μετα- </l>
+                <lb n="10"/>
+                <l> πεμψάμενον τοὺς εὐθυνομένους ἐπισκέψασθαι περὶ τούτων , </l>
+                <lb/>
+                <l>ἵν', ἐὰν παραδεικνύω ταῦθ' οὕτως ἔχοντα, συναναγκασθῶσιν </l>
+                <lb/>
+                <l>ἐκχωρεῖν ἐκ τῆς οἰκίας καὶ ὁμόλογοι κατασταθέντες νεκροὺς </l>
+                <lb/>
+                <l>ἀπηρεισμένοι ἐν τῆι σημαινομένηι οἰκίαι ἐξαποσταλῶσι </l>
+                <lb/>
+                <l>πρὸς σέ, ὅπως τύχωσι τῆς ἁρμοζούσης ἐπιπλήξεως. </l>
+                <lb n="15"/>
+                <l> Τούτου δὲ γενομένου ἔσομαι τετευχὼς τοῦ δικαίου. </l>
+                <lb/>
+                <l> Εὐτύχει. </l>
+            </div>
+            <div n="La decisione dello strategòs" type="2">
+                <lb/>
+                <l>
+                    <persName ref="#Eracleide">Ἡρακλείδει</persName>. <date><expan>Ἔτους</expan> νδ
+                        Φαῶφι κα</date>. </l>
+                <lb/>
+                <l>Τούτου ὄντος καὶ δικαιολογηθέντων τῶν συνκαταστάντων </l>
+                <lb/>
+                <l>αὐτοῖς, περὶ μὲν τοῦ <persName ref="#Hermias">Ἑρμίου</persName>
+                    <persName ref="#Filocle">Φιλοκλέους</persName>, ὑπὲρ δὲ τῶν περὶ τὸν </l>
+                <lb n="20"/>
+                <l>
+                    <persName ref="#Oro">Ὧρον</persName>
+                    <persName ref="#Deinone">>Δείνωνος</persName>, παραναγινωσκομένων αὐτοῖς ἐξ ὧν
+                    παρέκειντο </l>
+                <lb/>
+                <l>δικαιωμάτων ὧν ἑκάτερος <unclear>ᾑ</unclear>ρεῖτο, καὶ τοῦ μὲν <persName
+                        ref="#Filocle">Φιλοκλέους</persName></l>
+                <lb/>
+                <l>παραπλήσια τοῖς διὰ τοῦ ὑπομνήματος προενεγκαμένου, </l>
+                <lb/>
+                <l>παραναγνόντος δὲ καὶ ἐξ ὧν παρέκειτο δικαιωμάτων ἀντιγράφου </l>
+                <lb/>
+                <l>ἐντεύξεως, καθ' ἣν ἔφη ἐμβαλόντος αὐτοῦ εἰς τὸ προτεθὲν ἀγγεῖον </l>
+                <lb n="25"/>
+                <l>ὑπὸ τῶν ἐπιβαλόντων εἰς <placeName ref="#Tebe">Διὸς πόλιν τὴν Μεγάλην</placeName>
+                    <roleName>χρηματιστῶν</roleName>, </l>
+                <lb/>
+                <l>οἷς εἰσῆγεν <persName ref="#Dionisio">Διονύσιος</persName>, κατὰ <persName
+                        ref="#Lobate">Λοβάιτος</persName> τῆς <persName ref="#Erieo"
+                        >Ἑριέως</persName> μιᾶς ἀπὸ τῶν </l>
+                <lb/>
+                <l>πεπρακότων τοῖς περὶ τὸν Ὧρον τὴν οἰκίαν ὅυτως τὴν <persName ref="#Lobate"
+                        >Λοβάιν</persName></l>
+                <lb/>
+                <l>συνανενηνοχέναι αὐτῶι συνχώρησιν, δι' ἧς ἔφη αὐτὴν προ- </l>
+                <lb/>
+                <l>ενηνέχθαι μήτε πρότερον μήτε νῦν ἀντιποιεῖσθαι τῆς οἰκίας </l>
+                <lb n="30"/>
+                <l> πρὸς τὸ ἀπροφασίστους καταστῆσαι τοὺς ἀντιδίκους μηθενὸς </l>
+                <lb/>
+                <l>δικαίου ἀντεχομένους, καὶ κατὰ μὲν τὸν τρόπον τοῦτον </l>
+                <lb/>
+                <l>φήσας ἀπελαύνεσθαι αὐτοὺς τῆς κρατήσεως τῆς οἰκίας, </l>
+                <lb/>
+                <l>ὁμοίως δὲ καὶ ἀναφορὰν <roleName>τοῦ βασιλικοῦ γραμματέως</roleName>, καθ' ἣν ἔφη </l>
+                <lb/>
+                <l>συνσταθείσης αὑτῶι κρίσεως ἐπὶ <roleName>τῶν χρηματιστῶν</roleName> πρὸς </l>
+                <pb n="colonna 4" xml:id="colonna4" facs="data/images/single/col4.jpg"/>
+                <lb/>
+                <l><persName ref="#Armais">Ἁρμᾶιν</persName>
+                    <persName ref="#Nectomonto"/>Νεχθμώνθου τῶν ἀπ<unclear>ὸ</unclear>
+                    <unclear>τ</unclear>ῆς <placeName ref="#Tebe">Διὸς πόλεως</placeName> ἱερέων τοῦ </l>
+                <lb/>
+                <l>Ἄμμωνος περὶ γῆς σιτοφόρου <expan>ἀρουρῶν</expan> κ, ὧν ἐδήλου οὐσῶν αὑτοῦ</l>
+                <lb/>
+                <l>προγονικῶν <persName ref="#Apollonio3">Ἀπολλώνιον</persName>
+                    <persName ref="#Damone">Δάμω<unclear>ν</unclear>ος</persName> πεπρακέναι τῶι
+                        <persName ref="#Armais">Ἁρμάει</persName></l>
+                <lb/>
+                <l>παρὰ τὸ καθῆκον, καὶ τοῦ <persName ref="#Apollonio3">Ἀπολλωνίου</persName>
+                    διαδεξαμένου ὑπὲρ </l>
+                <lb n="5"/>
+                <l>τοῦ <persName ref="#Armais">Ἁρμάιος</persName> τὴν κρίσιν, παρὰ δὲ <roleName>τοῦ
+                        βασιλικοῦ γραμματέως</roleName>
+                </l>
+                <lb/>
+                <l>γενομένης τῆς ἀναφορᾶς ἐπὶ <roleName>τοὺς χρηματιστὰς</roleName> ἐκ τῶν παρὰ </l>
+                <lb/>
+                <l><roleName>τοῦ τοπογραμματέως</roleName> καὶ <roleName>κωμογραμματέως</roleName>
+                    ἀνενεχθέντων </l>
+                <lb/>
+                <l>περὶ τοῦ ἀναγράφεσθαι τὴν γῆν εἰς <persName ref="#Ermone"> Ἕρμωνα</persName>
+                    <persName ref="#Hermias3">Ἑρμίου</persName> τὸν πάππον </l>
+                <lb/>
+                <l>τῆς Ἑρμίου μητρὸς καὶ τὸν <persName ref="#Apollonio3">Ἀπολλώνιον</persName>
+                    συνανενηνοχέναι </l>
+                <lb n="10"/>
+                <l>αὑτῶι συνχώρησιν ἐξιστάμενον τῆς γῆς, φήσας κατά </l>
+                <lb/>
+                <l>ταύτην τὴν διάκρισιν μέγα τι συμβάλλεσθαι τεκμήριον </l>
+                <lb/>
+                <l>πρὸς τὴν ἐνεστηκυῖαν αὑτῶι πρὸς τοὺς περὶ τὸν <persName ref="#Oro"
+                        >Ὧρον</persName>
+                </l>
+                <lb/>
+                <l>κρίσιν περὶ τῆς οἰκίας, ὡσαύτως δὲ καὶ προστάγματος </l>
+                <lb/>
+                <l>ἀντίγραφον περὶ τοῦ τὰ μὴ ἀναγεγραμμένα Αἰγύπτια </l>
+                <lb n="15"/>
+                <l> συναλλάγματα ἄκυρα ε<unclear>ἶναι</unclear>, καὶ ἔλεγεν μὴ προσχρηστέον </l>
+                <lb/>
+                <l>εἶναι ταῖς ἐπιφερομέναις ὑπὸ τῶν περὶ τὸν <persName ref="#Oro">Ὧρον</persName>
+                    κατὰ τῆς </l>
+                <lb/>
+                <l>οἰκίας συγγραφαῖς, καὶ ἐκ τοῦ τῆς χώρας νόμου μέρη περὶ τοῦ, </l>
+                <lb/>
+                <l>ἐάν τις ἐπενέγκηι συγγραφὴν <unclear>ἐπ</unclear>ὶ τὸ δικαστήριον μὴ ἐστυ- </l>
+                <lb/>
+                <l>ριωμένην, μὴ προσκρῆσθαι καὶ, ἐάν τις ἐπ<unclear>ε</unclear>νέγκηι </l>
+                <lb n="20"/>
+                <l> ψευδῆ συγγραφήν, διαιρεῖ<unclear>σ</unclear>θαι αὐτήν, καὶ μέρος ἐγ νόμου </l>
+                <lb/>
+                <l>βεβαιώσεως, καθ'ὃ ἔφη δεῖν τοὺς ἀντιδίκους συνίστασθαι </l>
+                <lb/>
+                <l>τὸν λόγον πρὸς τοὺς ἀποδομένους αὐτοῖς, καὶ ἑτέρους δὲ </l>
+                <lb/>
+                <l>χρηματισμοὺς <persName ref="#Hermias2">Ἑρμίου</persName> τοῦ συγγενοῦς καὶ
+                        <roleName>στρατηγοῦ</roleName> καὶ </l>
+                <lb/>
+                <l><roleName>νομάρχου</roleName>, ὧι ὑπετέτακτο καὶ ἡ παρὰ <persName ref="#Diastene"
+                            >Διασθένου<supplied reason="omitted">ς</supplied></persName>
+                    <roleName>τοῦ στρατηγοῦ</roleName></l>
+                <lb n="25"/>
+                <l>γραφεῖσα αὐτῶι ἐπιστολή, ὑποτεταγμένων αὐτῆι καὶ τῆς </l>
+                <lb/>
+                <l>πεμφθείσης αὐτῶι ὑπὸ τῶν ἱερέω<unclear>ν</unclear> τοῦ Ἄμμωνος καὶ ἀναφορᾶς </l>
+                <lb/>
+                <l><persName ref="#Pamonte">Παμώνθου</persName> τοῦ γενομένου
+                        <roleName>τοπογραμματέως</roleName> καὶ <persName ref="#Aineas"
+                        >Αἰνέου</persName></l>
+                <lb/>
+                <l><roleName>τοῦ στρατηγοῦ</roleName> ἐπιστολή, περὶ τοῦ τοὺς ἀπὸ <placeName>τῆς
+                        Διὸς πόλεως</placeName></l>
+                <lb/>
+                <l><roleName>ταριχευτὰς</roleName> μετοικισθῆναι εἰς <placeName>τὰ
+                        Μεμνόνεια</placeName>, φήσας καὶ </l>
+                <lb n="30"/>
+                <l> ἀπὸ τούτων περιγίνεσθαί τινα αὑτῶι κυριείαν, καὶ
+                        προστάγμα<supplied>τα</supplied>
+                </l>
+                <lb/>
+                <l>περὶ προθεσμιῶν, οἷς προσήδρευεν μὴ παρὰ τὸν προγεγονότα </l>
+                <lb/>
+                <l>χρόνον ποιησαμένους, καὶ ἐξ ὧν δε προενήνεκτο καὶ παρανέγνω </l>
+                <lb/>
+                <l>ἐπὶ τῆς δικαιολογίας, ἠξίου τοὺς ἀντιδίκους ἐξοικισθῆναι, </l>
+                <lb/>
+                <l>ἑαυτῶι δὲ παραδοθῆναι τὴν οἰκίαν. </l>
+                <lb n="35"/>
+                <l> Μεταλαβών τὸν λόγον ὁ τοῖς περὶ τὸν <persName ref="#Oro">Ὧρον</persName>
+                    συνκαταστὰς </l>
+                <lb/>
+                <l><persName ref="#Deinone">Δείνων</persName> προηνέγκατο τὸν <persName
+                        ref="#Hermias">Ἑρμίαν</persName> κατὰ κενὸν περιεσπακέναι </l>
+                <pb n="colonna 5" xml:id="colonna5" facs="data/images/single/col5.jpg"/>
+                <lb/>
+                <l>τοὺς περὶ τὸν <persName ref="#Oro">Ὧρον</persName> ἐπὶ τῆι πάσηι συκοφαντίαι καὶ
+                    διασεισμῶι</l>
+                <lb/>
+                <l>καὶ εἰς οὐ τὰ τυχόντα βλάβη περιστῆσαι οὐθενὸς εὐλόγου ἀντεχόμενον, </l>
+                <lb/>
+                <l>φήσας εἶναι αὐτῶν τὴν οἰκίαν καὶ καθ' ἃ παρέκειτο ἀντίγραφα </l>
+                <lb/>
+                <l>συγγραφῶν Αἰγυπτίων, διηρμηνευμένων δ' Ἑλληνιστί, μιᾶς μὲν </l>
+                <lb n="5"/>
+                <l>γεγονυίας τοῦ κη <expan>ἔτους</expan> Παχὼν ἐπὶ τοῦ <persName ref="#Filometore"
+                        >Φιλομήτορος</persName>, καθ' ἣν ὁ τοῦ ἑνὸς </l>
+                <lb/>
+                <l>τῶν ἐνκαλουμένων <persName ref="#Psencosi">Ψενχώνσιος</persName> καὶ <persName
+                        ref="#Conopre">Χονοπρέους</persName> πατὴρ <persName ref="#Tefibio"
+                        >Τεεφῖβις</persName></l>
+                <lb/>
+                <l>ἐώνητο παρὰ <persName ref="#Elechio">Ἑλήκιος</persName> καὶ <persName
+                        ref="#Lobate">Λοβάιτος</persName> καὶ <persName ref="#Tebaiaite"
+                        >Τβαιάιτος</persName> καὶ <persName ref="#Senerieus"
+                    >Σενεριεῦτος</persName></l>
+                <lb/>
+                <l>καὶ <persName ref="#Erieo2">Ἑριέως</persName> καὶ <persName ref="#Senosorfibio"
+                        >Σενοσορφίβιος</persName> καὶ <persName ref="#Sisoite">Σισόιτος</persName>
+                    τοῦ καὶ <persName ref="#Erieo3">Ἑριέως</persName>, ὄντων ἑπτά, </l>
+                <lb/>
+                <l>πήχεις οἰκοπεδικοὺς ἑπτὰ ἥμισυ ἐκ τοῦ ἀπὸ νότου μέρους τῶν </l>
+                <lb n="10"/>
+                <l>ὑπαρχόντων αὐτοῖς ψιλῶν τόπων πηχῶν δέκα, ἑτέρας δὲ, </l>
+                <lb/>
+                <l>καθ' ἣν ὁ τῶν ἐνκαλουμένων <persName ref="#Necoto">Νεχούτου</persName> καὶ
+                        <persName ref="#Asos">Ἁσῶτος</persName> καὶ ἄλλου </l>
+                <lb/>
+                <l><persName ref="#Necoto2">Νεχούτου</persName> καὶ τῆς τούτων ἀδελφῆς <persName
+                        ref="#Necuti">Νεχούθιος</persName> πατὴρ <persName ref="#Asos2"
+                        >Ἁσῶς</persName></l>
+                <lb/>
+                <l>ὁμοίως ἐώνητο παρὰ τῶν αὐτῶν πήχεις δύο ἥμισυ ἐν τῶι αὐτῶι</l>
+                <lb/>
+                <l>ἔτει καὶ μηνί, ἑτέρας δὲ γεγονυίας τοῦ λε <expan>ἔτους</expan> Μεσορὴ ἐπὶ τοῦ
+                    αὐτοῦ </l>
+                <lb n="15"/>
+                <l>βασιλέως, καθ' ἣν ὡσαύτως ἐώνητο ὁ τῶν ἄλλων <persName ref="#Panas2"
+                        >Πανᾶτος</persName> καὶ </l>
+                <lb/>
+                <l><persName ref="#Patoto">Πατοῦτος</persName> καὶ <persName ref="#Pasemio"
+                        >Πασήμιος</persName> καὶ <persName ref="#Arpachemio">Ἁρπχήμιος</persName>
+                    καὶ <persName ref="#Senanonio">Σεναμούνιος</persName> πατὴρ </l>
+                <lb/>
+                <l> Π<unclear>ε</unclear>χύτη<unclear>ς</unclear> παρ' <persName ref="#Ammonio2"
+                        >Ἀμμωνίου</persName> καὶ <persName ref="#Zebendeti">Ζβενδήτιος</persName> τὸ
+                    ἐπιβάλλον αὐτοῖς </l>
+                <lb/>
+                <l>τ<unclear>ῆ</unclear>ς αὐτῆς οἰκίας μέρος τέταρτον, πήχεις τρεῖς τρίτον, ὧν καὶ </l>
+                <lb/>
+                <l>τὰ τέλη τετάχθαι εἰς τὴν τοῦ ἐνκυκλίου ὠνήν, καὶ κεκυριευκέναι</l>
+                <lb n="20"/>
+                <l>αὐτοὺς μέχρι τοῦ νῦν ἀναμφιλέκτως οὐθενὸς ἁπλῶς ἐμποιη- </l>
+                <lb/>
+                <l>σαμένου ἔτη τριάκοντα ἑπτά. Παρέθετο δὲ καὶ μέρη ἐκ τῶν </l>
+                <lb/>
+                <l> περὶ τῶν φιλανθρώπων προσταγμάτων περὶ τοῦ τοὺς κεκυ- </l>
+                <lb/>
+                <l>ριευκότας τινῶν καὶ μὴ δυναμένους <supplied reason="lost"
+                        >π</supplied><unclear>α</unclear>ρατίθεσθαι τὰ κατ'αὐτῶν </l>
+                <lb/>
+                <l> συμβόλαια ἐᾶν κρατεῖν. Ἐπελθὼν δὲ καὶ ἐπὶ τὰ τοῦ ἀντιδίκου</l>
+                <lb n="25"/>
+                <l>δικαιώματα καὶ παραναγνωσθείσης τῆς προαναλελεγμένης </l>
+                <lb/>
+                <l> ἐντεύξεως ἔλεγεν, τοῦ ἀντιδίκου ἀναπεφωνηκότος δι' αὐτῆς </l>
+                <lb/>
+                <l>τοῖς βασιλεῦσι τὸν ἑαυτοῦ πατέρα μετῆλθαι ἐκ τῆς <placeName ref="#Tebe">Διὸς
+                        πόλεως</placeName></l>
+                <lb/>
+                <l>μεθ' ἑτέρων στρατιωτῶν εἰς τοὺς ἄνω τόπους <unclear>ἐν</unclear> τῆι γενομένηι </l>
+                <l>ταραχῆι ἐπὶ τοῦ πατρὸς τῶν βασιλέων, θεοῦ <persName ref="#Epifane"
+                        >Ἐπιφανοῦς</persName>, καὶ ἔφη </l>
+                <lb n="30"/>
+                <l>ἀναλογιζομένων τῶν χρόνων ἀπὸ μὲν τοῦ <persName ref="#Epifane"
+                        >Ἐπιφανοῦς</persName> ἐτῶν κδ,</l>
+                <lb/>
+                <l>
+                    <persName ref="#Filometore">Φιλομήτορος</persName> ἐτῶν λε, θεοῦ δ'<persName
+                        ref="#Evergete">Εὐεργέτου</persName> ἀπὸ τοῦ κε <expan>ἔτους</expan> ἕως τοῦ
+                    νγ <expan>ἔτους</expan></l>
+                <lb/>
+                <l>ἐτῶν κθ, συντρέχειν ἔτη πρὸς τὰ πη, ὥστε ὁμολογουμένως </l>
+                <lb/>
+                <l>ἑαυτοῦ καταμαρτυροῦντα συμφανὲς καθεστακέναι μήτε τὸν ἑαυτοῦ </l>
+                <lb/>
+                <l>πατέρα μήτ' αὑτὸν κατωικηκέναι ἐν <placeName ref="#Tebe">τῆι Διὸς
+                        πόλει</placeName> μηδὲ κατα- </l>
+                <lb n="35"/>
+                <l>λείπεσθαι αὐτῶι μηδεμίαν ἀντί<supplied reason="omitted">ρ</supplied>ρησιν καθόλου
+                    περὶ τῆς οἰκίας </l>
+                <lb/>
+                <l> διὰ τοσούτων ἐτῶν ἐπερχομένωι καὶ μηδεμιᾶς κρατήσεως </l>
+                <lb/>
+                <l>μηδὲ κυριείας τινὸς ἐγγαίου περιγινομένης αὐτῶι μηδὲ τῶι</l>
+                <pb n="colonna 6" xml:id="colonna6" facs="data/images/single/col6.jpg"/>
+                <lb/>
+                <l>πατρὶ ἀπὸ τῶν ἔνπροσθεν χρόνων μέχρι τοῦ νῦν. Προσαπε- </l>
+                <lb/>
+                <l> λογίζετο δὲ μήτε διαγραφὴν μήτ'ἄλλην κτῆσιν ἐπιφέροντος,</l>
+                <lb/>
+                <l>ἀλλ' ἀναποδείκτου καθεστηκότος, κακοτρόπως καὶ ἐπὶ ῥαδιουργίαι </l>
+                <lb/>
+                <l>παρακεῖσθαι αὐτὸν τὴν συνχώρησιν, καὶ ὄντων τῶν πεπρα-</l>
+                <lb n="5"/>
+                <l>κότων ἐννέα καὶ τῶν περὶ τὸν<persName ref="#Oro"> Ὧρον</persName> ἐνοικούντων
+                    καὶ</l>
+                <lb/>
+                <l>κρατούντων τῆς οἰκίας, δέον εἶναι πρότερον κατὰ τούτων τὴν</l>
+                <lb/>
+                <l>ἔντευξιν δοῦναι, ἵν' οὗτοι ἤτοι προεπισκηψάμενοι τοῖς πεπρακόσιν</l>
+                <lb/>
+                <l>αὐτοῖς αὐτοὶ καὶ τὴν πρὸς τὸν <persName ref="#Hermias">Ἑρμίαν</persName> κρίσιν
+                    ἐγδικήσαντες</l>
+                <lb/>
+                <l>ἐκστήσωσιν αὐτόν τῆς πρὸς αὐτοὺς ἀντιδικίας ἢ παραδόντες</l>
+                <lb n="10"/>
+                <l>τοῖς βεβαιωταῖς τὸν περὶ τῆς βεβαιώσεως λόγον συνστήσωνται,</l>
+                <lb/>
+                <l>φανερᾶς τῆς κρίσεως γνωρισθείσης ἑκάστοις καὶ ἑλκυσθέντων</l>
+                <lb/>
+                <l>ἁπάντων εἰς τὸ κριτήριον, εἴπερ γε δὴ ἐνόμιζεν ἐκ τῆς ἀληθείας <supplied
+                        reason="omitted">τῆι</supplied></l>
+                <lb/>
+                <l>κατὰ νόμους ὁδῶι πορευόμενος τὸν ἐξ εὐθυδικίας λόγον συν-</l>
+                <lb/>
+                <l>ίστασθαι καὶ μὴ διὰ κεκρυμμένης σκευωρίας κακοικονομίαν</l>
+                <lb n="15"/>
+                <l>ἐνεργάζεσθαι, ἀγνοούντων τῶν ἀντιδίκων, εἴ τινα σύνπαιγμον</l>
+                <lb/>
+                <l>ποιεῖται τῆι <persName ref="#Lobate">Λοβάιτι</persName> μόνηι, ἧιπερ οὐκέτ' ἦν
+                    ἐξουσία τῆς οἰκίας</l>
+                <lb/>
+                <l>ἐμποιεῖσθαι πεπρακυίαι τὸ ἑαυτῆς μέρος ἕβδομον ἀπὸ πηχῶν</l>
+                <lb/>
+                <l>ἑπτὰ ἡμίσους καὶ ἑνὸς πήχεως ἐπιβάλλοντος αὐτῆι κατὰ τὴν</l>
+                <lb/>
+                <l>μίαν τῶν παρακειμένων συγγραφήν. Προσυποδεικνὺς δὲ</l>
+                <lb n="20"/>
+                <l>πρὸς τὸ συνστῆσαι, ὅτι ἐστὶν οἷα προενήνεκται, ἀναλαβὼν ἐξ ὧν</l>
+                <lb/>
+                <l>παρέκειτο ὁ <persName ref="#Hermias">Ἑρμίας</persName> περὶ ἧς ἔφη γενονέναι
+                    αὑτῶι ἑτέρας διακρίσεως</l>
+                <lb/>
+                <l>πρὸς <persName ref="#Armais">Ἁρμᾶιν</persName> καὶ <persName ref="#Apollonio3"
+                        >Ἀπολλώνιον</persName>, ἔφη προενηνεγμένον αὐτὸν περὶ τοῦ</l>
+                <lb/>
+                <l>πεπρακέναι τὸν <persName ref="#Apollonio3">Ἀπολλώνιον</persName> τῶι <persName
+                        ref="#Armais">Ἁρμάει</persName>, ἀφ' ἧς ἔφη εἶναι αὑτοῦ γῆς</l>
+                <lb/>
+                <l>μέρος, τὴν δ' ἔνκλησιν πεποιημένον οὐ κατὰ τοῦ ἀποδομένου</l>
+                <lb n="25"/>
+                <l><persName ref="#Apollonio3">Ἀπολλωνίου</persName>, κατὰ δὲ τοῦ ἐωνημένου καὶ
+                    κρατοῦντος <persName ref="#Armais">Ἁρμάιος</persName>,</l>
+                <lb/>
+                <l>τοῦ δὲ <persName ref="#Armais">Ἁρμάιος</persName> ἐπισκηψαμένου τῶι ἀποδομένωι
+                        <persName ref="#Apollonio3">Ἀπολλωνίωι</persName></l>
+                <lb/>
+                <l>παραδεδωκέναι τὴν κρίσιν καὶ <supplied reason="omitted">τοῦτον</supplied> τὰ πρὸς
+                    τὸν <persName ref="#Hermias">Ἑρμίαν</persName> ἐγδεδικηκέναι</l>
+                <lb/>
+                <l>ἀπὸ τῆς πρότερον συνσταθείσης κρίσεως <persName ref="#Armais">Ἁρμάει</persName>
+                    τῶι ἐωνημένωι</l>
+                <lb/>
+                <l>καὶ κρατοῦντι, ὥστε μηδένα λόγον αὐτῶι καταλείπεσθαι περὶ τῆς</l>
+                <lb n="30"/>
+                <l>πρὸς τὴν <persName ref="#Lobate">Λοβάιν</persName> συνχωρήσεως μηδὲ τοὺς περὶ τὸν
+                        <persName ref="#Oro">Ὧρον</persName> ἐκθλί-</l>
+                <lb/>
+                <l>βεσθαι ταύτηι. Περὶ δὲ τοῦ προστάγματος τοῦ περὶ τῆς ἀνα-</l>
+                <lb/>
+                <l>γραφῆς προεφέρετο μηθὲν αὐτῶι συμβάλλεσθαι, ὁμολογοῦντος</l>
+                <lb/>
+                <l>αὐτοῦ διὰ τῆς αὐτῆς ἐντεύξεως, ὅτι ἡ <persName ref="#Lobate">Λοβάις</persName>
+                    σὺν τοῖς ἑαυτῆς</l>
+                <lb/>
+                <l>ἀδελφοῖς ἀπέδοτο <persName ref="#Oro">Ὥρωι</persName> καὶ τοῖς ἀδελφοῖς τὴν
+                    οἰκίαν, ὧν καὶ μετα-</l>
+                <lb n="35"/>
+                <l>λαβόντα τὴν τῆς ἐντεύξεως ἐμβολὴν πεποιῆσθαι κατ' αὐτῆς,</l>
+                <pb n="colonna 7" xml:id="colonna7" facs="data/images/single/col7.jpg"/>
+                <lb/>
+                <l>τὴν δ'αὐτὴν ἀπολογίαν ἔχειν καὶ πε<unclear>ρὶ</unclear> ὧν παρέκειτο ἐκ τῶν</l>
+                <lb/>
+                <l>τῆς χώρας νόμων περὶ τῆς στυριώσ<unclear>ε</unclear>ως τῶν συγγραφῶν, προσ-</l>
+                <lb/>
+                <l>υποδεικνὺς ὡς εἰ καὶ ἐπὶ <roleName>λαοκριτῶν</roleName>
+                    δι<unclear>ε</unclear>κρίνοντο καθ' οὓς
+                        <unclear>π</unclear>αρέκει<unclear>τ</unclear><supplied reason="lost"
+                        >ο</supplied></l>
+                <lb/>
+                <l>νόμους, πρότερον <supplied reason="omitted">δέον</supplied> εἶναι ἐπιδεικνύειν
+                    αὐτὸν ὥς ἐστιν υἱὸς τοῦ τε</l>
+                <lb n="5"/>
+                <l> Πτολεμαίου καὶ ἧς φησὶν εἶναι μητρὸς, κ<unclear>α</unclear>ὶ ὡς οἱ γονεῖς αὐτοῦ
+                        εἰσι<unclear>ν</unclear></l>
+                <lb/>
+                <l>ὧν προφέρονται συγγενῶν πρὶν ἣ καθόλου ἀκουσθῆναι αὐτοῦ λόγον</l>
+                <lb/>
+                <l>περί τινος πράγματος καὶ μετὰ τὰς ἐπιδείξεις ταύτας αἰτεῖσθαι</l>
+                <lb/>
+                <l>αὐτὸν τὰς περὶ τῆς οἰκίας ἀποδείξεις, τὸν αὐτὸν δὲ τρόπον</l>
+                <lb/>
+                <l>καὶ κατὰ τοὺς πολιτικοὺς νόμους καὶ τὰ ψηφίσματα τὰς αὐτὰς
+                    ἐ<unclear>πι</unclear>-</l>
+                <lb n="10"/>
+                <l> δείξεις ποιησάμενον καὶ ταξάμενον τὴν ἀπαρχὴν κληρονομίαν</l>
+                <lb/>
+                <l>ἀπογράψασθαι ἢ ἀπο<unclear>τ</unclear>ίνειν αὐτὸν δραχμὰς μυρίας καὶ ἃς ἂν
+                    ποιήσηται</l>
+                <lb/>
+                <l>οἰκονομίας ἀκύρους εἶναι καὶ μὴ ἐξεῖναι ἐπὶ τὰ τῶν
+                        τετελευτηκότ<unclear>ω</unclear>ν</l>
+                <lb/>
+                <l>ἐπιπορεύεσθαι, ἔτι δὲ καὶ τῶν μεγίστων βασιλέων ἀπολελυκότων</l>
+                <lb/>
+                <l>τοὺς ὑπὸ τὴν βασιλείαν πάντας αἰτιῶν πασῶν τῶν ἕως Θωὺθ ιθ</l>
+                <lb n="15"/>
+                <l> τοῦ νγ <expan>ἔτους</expan> καὶ τὰς παρακειμένας ὑπ' αὐτοῦ συγγραφὰς
+                    ἀνεπιλήπτους</l>
+                <lb/>
+                <l>εἶναι καὶ τὴν κράτησιν καὶ κυριείαν τῆς οἰκίας βεβαίαν τοῖς περὶ τὸν</l>
+                <lb/>
+                <l> Ὧρον καθίστασθαι ἀπό τε τῶν αὐτῶν φιλανθρώπων καὶ ἔτι κατὰ τὰ</l>
+                <lb/>
+                <l>προεκκείμενα αὐτῶν τε καὶ τῶν προγόνων προστάγματα περὶ τῶν</l>
+                <lb/>
+                <l>κεκρατηκότων, εἰ καί τις θείηι μηδ' ἐπιφέρειν αὐτοὺς συγγραφάς,</l>
+                <lb n="20"/>
+                <l>μὴ γοῦν καὶ τὰς κτήσεις ἐπιφερόντων καὶ ἀντεχομένων τῆς</l>
+                <lb/>
+                <l>ἀπὸ τῶν προσταγμάτων ἐξουσίας καὶ φιλανθρωπίας, <unclear>τ</unclear>ὸν δὲ</l>
+                <lb/>
+                <l>ἀντίδικον μηδεμίαν ἀπόδειξιν παρακεῖσθαι. Περὶ δὲ τῶν τῶν</l>
+                <lb/>
+                <l>προθεσμιῶν παρακειμένων προσταγμάτων ἔλεγεν, εἰ καί τις</l>
+                <lb/>
+                <l>ἐπιχωρήσαι τοῖς ἐπερχομένοις καὶ ἐπιχειροῦσι τῶν ἀλλοτρίων</l>
+                <lb n="25"/>
+                <l>ἐμποιεῖσθαι, μὴ συνχωρητέον εἶναι πλείονα ἐνιαυτοῦ ἢ καὶ ἐτῶν</l>
+                <l>δύο ἢ τριῶν τῆι προθεσμίαι καὶ ταύτην μηδ' ὁλοσχερῶς πᾶσιν,</l>
+                <lb/>
+                <l>ἀλλὰ τοῖς ἔχουσίν τι δίκαιον, καὶ μὴ τὸν πὰντα χρόνον συνχωρεῖσθαι,</l>
+                <lb/>
+                <l>τοῦ μὲν πατρὸς τοῦ <persName ref="#Hermias">Ἑρμίου</persName> μέχρι τελευτῆς βίου
+                    καὶ αὐτοῦ <unclear>δ</unclear>ὲ τοῦ</l>
+                <lb/>
+                <l>Ἑρμίου προβεβηκότος ἤδη τοῖς ἔτεσιν καὶ ἐσχατόγηρως ὄντος</l>
+                <lb n="30"/>
+                <l>καὶ μηδενὸς αὐτῶν ὠικηκότος ἐν <placeName ref="#Tebe">τῆι Διὸς πόλει</placeName>
+                    καθόλου, ὥστε</l>
+                <lb/>
+                <l>καὶ <supplied reason="omitted">μηδεμίαν</supplied> κυριείαν αὐτοῖς πε<supplied
+                        reason="lost">ρ</supplied>ιγίνεσθαί τινος ἐνγαίου διὰ τοσούτων ἐτῶν</l>
+                <lb/>
+                <l>ἐπερχομένωι καὶ μηδεμ<unclear>ί</unclear>αν ἀπόδειξιν παρεσχημένου καθόλου.</l>
+                <lb/>
+                <l>Παρέθετο δὲ καὶ ὑπογραφὴν προενεγκάμενος γεγονέναι τοῦ να <expan>ἔτους</expan>
+                    Παῦνι η,</l>
+                <lb/>
+                <l>καθ' ἣν ἔφη τὸν <persName ref="#Hermias">Ἑρμίαν</persName> διακεκριμένον ἐπὶ
+                        <persName ref="#Tolomeo2">Πτολεμαίου</persName> τοῦ πρὸ τοῦ πρὸ
+                        ἡ<unclear>μ</unclear>ῶν</l>
+                <lb n="35"/>
+                <l><roleName>ἐπιστάτου</roleName> πρὸς αὐτοὺς λελεῖφθαι τῆι κρίσει, μὴ προσεκτέον
+                    αὐτῶι</l>
+                <pb n="colonna 8" xml:id="colonna8" facs="data/images/single/col8.jpg"/>
+                <lb/>
+                <l>παρ' ἕκαστα περισπᾶν τοὺς περὶ τὸν <persName ref="#Oro">Ὧρον</persName>, ἐᾶν
+                    δ'αὐτοὺς κρατεῖν.</l>
+                <lb/>
+                <l>Ἐπελθὼν δὲ καὶ ἐφ' ἃ παρέκειτο ὁ <persName ref="#Hermias">Ἑρμίας</persName> περὶ
+                    ἧς ἔφη συνστήσασθαι αὐτὸν</l>
+                <lb/>
+                <l>πρός τ<unclear>ε</unclear>
+                    <persName ref="#Armais">Ἁρμᾶιν</persName> καὶ <persName ref="#Apollonio3"
+                        >Ἀπολλώνιον</persName> κρίσ<unclear>ε</unclear>ως, προεφέρετο
+                        ἀλ<unclear>λ</unclear>ότριον εἶναι</l>
+                <lb/>
+                <l>τὸ παρεισαγόμενον ὑπ' αὐτοῦ καὶ μὴ προσεκτέον αὐτῶι ἐφ' ἑτέραν </l>
+                <lb n="5"/>
+                <l> θεωρίαν μεταφέροντι τὴν γεγονυῖαν αὐτῶι πρὸς ἄλλους περὶ
+                        οὑδη<unclear>π</unclear>οτοῦν</l>
+                <lb/>
+                <l>πράγματος ἀμφιζβήτησιν, οὐθὲν αὐτῶι καθόλου συμβαλλομένη<unclear>ν</unclear></l>
+                <lb/>
+                <l>πρὸς τὴν ἐνεστηκυῖαν αὐτῶι <unclear>π</unclear>ρὸς τοὺς περὶ τὸν <persName
+                        ref="#Oro">Ὧρον</persName> περὶ τῆς</l>
+                <lb/>
+                <l>ἑαυτῶν οἰκίας κρίσιν. Ὡσαύτως δὲ καὶ περὶ ὧν παρέκειτο χρημα- </l>
+                <lb/>
+                <l>τισμῶν περὶ τοῦ τοὺς ἀ<unclear>π</unclear>ὸ <unclear>τ</unclear>οῦ
+                        τό<unclear>π</unclear>ου <roleName>ταριχευτ<unclear>ὰ</unclear>ς</roleName>
+                    μετοικισθῆναι</l>
+                <lb n="10"/>
+                <l>εἰς τὰ <placeName ref="#Memnonia">Μεμνόνεια</placeName> ἔλεγεν πολύ τι κεχωρίσθαι
+                    καὶ τοὺς χρηματισμοὺς</l>
+                <lb/>
+                <l>τούτους καὶ πολλῶι μᾶλλον εὐκατάγνωστον εἶναι ἑαυτῶι συν-</l>
+                <lb/>
+                <l>ιστοροῦντα μηθὲν ἔχο<unclear>ντ</unclear>ι δίκαιον,ἐμφανιστοῦ καὶ κατηγόρου </l>
+                <lb/>
+                <l>τάξιν ἔχοντα παρακεῖσθαι ὑπολαμβάνοντα εὐχερῶς διασείσειν</l>
+                <lb/>
+                <l>τοὺς ἀντιδίκους, τοὺς γὰρ περὶ τὸν <persName ref="#Oro">Ὧρον</persName> μὴ εἶναι
+                        <roleName>ταριχευτάς</roleName>,</l>
+                <lb n="15"/>
+                <l> ἀλλὰ χοαχύτας μηδὲ τὴν αὐτὴν ἐργασίαν ἐπιτελεῖν, διαφέρειν δὲ </l>
+                <lb/>
+                <l>τὴν τούτων λειτουργίαν, ἔτι δὲ καὶ ἐν ταῖς γινομέναις δημοτελέσιν</l>
+                <lb/>
+                <l>ἐνθέσμοις καὶ ἐπωνύμοις ἡμέραις μεταφέροντας αὐτοὺς κονίαν</l>
+                <lb/>
+                <l>καταστρωννύειν ἐπὶ τοῦ δρόμου τοῦ Ἄμμωνος καὶ διὰ τοῦ ἱεροῦ καὶ</l>
+                <lb/>
+                <l>εἰς τὸ Ἡραῖον εἰσιόντας τὸ ὅμοιον ἐπιτελεῖν καὶ ἐν ταῖς κατ' ἐνιαυτὸν</l>
+                <lb n="20"/>
+                <l>γινομέναις τοῦ Ἄμμωνος διαβάσεσιν εἰς τὰ <placeName ref="#Memnonia"
+                        >Μεμνόνεια</placeName></l>
+                <lb/>
+                <l>προάγοντας τῆς κωμασίας τὰς καθηκούσας αὐτοῖς λειτουργίας</l>
+                <lb/>
+                <l>ἐπιτελεῖν καὶ χοαχυτοῦντας καὶ εἶναι αὐτῶν γέρας. Ἀλλὰ καὶ</l>
+                <lb/>
+                <l>τοὺς <unclear>τ</unclear>αρ<unclear>ι</unclear>χευτὰς ἔχειν πρόσταγμα, καθ'
+                        <supplied reason="omitted">ὃ</supplied> αὐτοὺς ἀπαρενοχλήτους</l>
+                <lb/>
+                <l>εἶναι. Εἰ δὲ καί τις θείηι τὸ μὴ ὂν μετοικισθῆναι <roleName>τοὺς
+                        ταριχευτάς</roleName>,</l>
+                <lb n="25"/>
+                <l> μηδεμίαν ἔχειν τινὰ ἐξουσίαν μηδὲ τὸν <persName ref="#Hermias">Ἑρμίαν</persName>
+                    ἐφάπτεσθαί </l>
+                <lb/>
+                <l>τινος αὐτῶν ἐνγαίου, ἕκαστον δ' α<unclear>ὐ</unclear>τῶν δεσπόζοντα τῆς ἰδίας</l>
+                <lb/>
+                <l><unclear>κ</unclear>τήσεως ἤτοι ἀποδόμενον ἢ ἑτέροις
+                        παραχωρήσα<unclear>ν</unclear>τα αὐτοὺς</l>
+                <lb/>
+                <l>καὶ τὴν τιμὴν ἀπολαβεῖν, τὸν δὲ <persName ref="#Hermias">Ἑρμίαν</persName>
+                    παρεμπλέκοντα τὰ μη-</l>
+                <lb/>
+                <l>δαμῶς ἀνήκοντα πρὸς τὴν ἐνεστῶσαν κρίσιν μηδὲ τῆς αὐτοῦ</l>
+                <lb n="30"/>
+                <l>διαλήψεως ὄντα, πολυπραγμόνως δὲ προσεπισπώμενον τὴν</l>
+                <lb/>
+                <l>τῶι στρατηγῶι καθήκουσαν ἐξουσίαν, ὥστ' εὔδηλον εἶναι μηθὲν</l>
+                <lb/>
+                <l>ἔχοντα τεκμήριον καθόλου προῆχθαι ἐμφανιστοῦ σχῆμα περι-</l>
+                <lb/>
+                <l>θέμενον παρακεῖσθαι τοὺς περὶ <roleName>τῶν ταριχευτῶν</roleName>
+                    χρηματισμούς,</l>
+                <lb/>
+                <l>ἔτι δὲ καὶ τοὺς πρὸς <persName ref="#Armais">Ἁρμᾶιν</persName> καὶ <persName
+                        ref="#Apollonio3">Ἀπολλώνιον</persName> καὶ τοὺς ἄλλους</l>
+                <lb n="35"/>
+                <l>χρηματισμοὺς ὡς μέγα τι συμβαλλομένους αὑτῶι, καὶ εἴπερ γε δὴ</l>
+                <lb/>
+                <l>ἐνόμιζεν ἔχειν τι δίκαιον, δι' οὗ δύναται τὸν κριτὴν πεῖσαι καὶ μὴ</l>
+                <pb n="colonna 9" xml:id="colonna9" facs="data/images/single/col9.jpg"/>
+                <lb/>
+                <l>τοῖς προαναλελεγμένοις χρηματισμοῖς ἐνσεμνύνεσθαι,</l>
+                <lb/>
+                <l>οὐκ ἄν ποτε προαχθῆναι ἑτέρας οἰκονομίας παρατίθεσθαι</l>
+                <lb/>
+                <l>οὐθὲν αὐτῶι συμβαλλομένας.</l>
+                <lb/>
+                <l>Τοιαύτην δὲ τὴν δικαιολογίαν καὶ ἕτερα προενηνεγμένων</l>
+                <lb n="5"/>
+                <l>καὶ τοῦ <persName ref="#Hermias">Ἑρμίου</persName> μηδεμίαν πρόκτησιν
+                        <unclear>μ</unclear>ηδ' ἄλλον</l>
+                <lb/>
+                <l>χρηματισμὸν ὡς εἴηι αὑτοῦ ἤτοι προγονικὴ</l>
+                <lb/>
+                <l>ἡ διαμφιζβητουμένη οἰκία παρατιθεμένου,</l>
+                <lb/>
+                <l>φάσεσι δὲ καὶ λόγωι προφερομένου εἶναι αὑτοῦ</l>
+                <lb/>
+                <l>τὴν οἰκίαν, τῶν δὲ περὶ τὸν <persName ref="#Oro">Ὧρον</persName> παρα-</l>
+                <lb n="10"/>
+                <l>τεθειμένων ὡς οἱ πρόγονοι αὐτῶν ἐώνηντο</l>
+                <lb/>
+                <l>παρὰ <persName ref="#Elechio">Ἑλήκιος</persName> καὶ <persName ref="#Lobate"
+                        >Λοβάιτος</persName> καὶ τῶν ἄλλων τῶν</l>
+                <lb/>
+                <l>σημανθέντων ὄντων ἐννέα τὴν δηλουμένην</l>
+                <lb/>
+                <l>οἰκίαν κατ' Αἰγυπτίας συγγραφὰς, ὧν καὶ τὰ καθήκοντα</l>
+                <lb/>
+                <l>τέλη τετάχθαι εἰς τὴν τοῦ ἐνκυκλίου ὠνήν,</l>
+                <lb n="15"/>
+                <l>καὶ προσυποδεδειχότων ἀπὸ τῶν τῶν συγγραφῶν</l>
+                <lb/>
+                <l>χρόνων κεκυριευκέναι τοὺς γονεῖς αὐτῶν</l>
+                <lb/>
+                <l>ἐφ' ὅσον περιῆσαν χρόνον, μετὰ δὲ τὴν τούτων</l>
+                <lb/>
+                <l>τελευτὴν διακατέχειν καὶ αὐτοὺς μέχρι τοῦ</l>
+                <lb/>
+                <l>παρόντος ἀναμφιλέ<unclear>κ</unclear><supplied reason="lost">τω</supplied>ς,
+                        <unclear>οὐ</unclear><supplied reason="lost">θ</supplied>ενὸς ἁπλῶς</l>
+                <lb n="20"/>
+                <l>ἐμποιησαμένου τὰ τ<supplied reason="lost">οσα</supplied>ῦτα ἔτη, παραθεμένων
+                    δὲ</l>
+                <lb/>
+                <l>καὶ προστάγματος μέρ<unclear>ο</unclear>ς τοῦ ἐ<unclear>κτ</unclear>εθέντος
+                        <date>ἐν τῶι κς ἔτει</date></l>
+                <lb/>
+                <l>περὶ τῶν φιλανθρώπω<unclear>ν</unclear>
+                    <unclear>π</unclear>ερὶ τῶν κεκρατηκότων,</l>
+                <lb/>
+                <l>καὶ ἐπὶ <persName ref="#Tolomeo2">Πτολεμαίου</persName> δὲ τοῦ πρὸ τοῦ πρὸ ἡμῶν
+                        <roleName>ἐπιστάτου</roleName></l>
+                <lb/>
+                <l>ὑπογραφῆς ἀντίγραφον τ<supplied reason="lost">ῆ</supplied>ς γεγονυίας αὐτοῖς
+                    καταστάσεως</l>
+                <lb n="25"/>
+                <l>καὶ <supplied reason="omitted">τοῦ <persName ref="#Hermias"
+                        >Ἑρμίου</persName></supplied> μηθὲν παρατεθειμένου συντετάχθαι μὴ
+                    ἀντιποιεῖσθαι,</l>
+                <lb/>
+                <l>καὶ αὐτοὶ κατακολ[ο]υθήσαντες ταῖς ἐπενη<unclear>ν</unclear>εγμέναις</l>
+                <lb/>
+                <l>ὑπ' αὐτῶν συγγραφαῖς καὶ τοῖς ὑπὸ τῶν βασιλέων</l>
+                <lb/>
+                <l>προστεταγμένοις περὶ τῶν κρατήσεων διὰ τὸ</l>
+                <lb/>
+                <l>μὴ κατὰ τῶν συγγραφῶν μηθὲν ἐπενηνέχθαι</l>
+                <pb n="colonna 10" xml:id="colonna10" facs="data/images/single/col10.jpg"/>
+                <lb/>
+                <l>γράμμα, εἴπαμεν τῶι μὲν</l>
+                <lb/>
+                <l>
+                    <persName ref="#Hermias">Ἑρμίαι</persName> μὴ
+                    εἰσβιάζε<unclear>σθαι</unclear>,</l>
+                <lb/>
+                <l>τοῖς δὲ περὶ τὸν <persName ref="#Oro">Ὧρον</persName></l>
+                <lb/>
+                <l>κρατεῖν καθὼς καὶ ἀπὸ</l>
+                <lb n="5"/>
+                <l>τῆς ἀρχῆς διακατεῖχον.</l>
+            </div>
+            <div type="3" n="Bibliografia essenziale">
+                <p>Edizione di riferimento: P. Tor. Choach. 12 <ref target="#Pestman">&#40;Pestman
+                        1992&#41;</ref>, pp. 161-197. <lb/>Altre edizioni: UPZ 2 162 <ref
+                        target="#Wilcken">&#40;Wilcken 1957&#41;</ref>; P. Survey 48 descr. <ref
+                            target="#Pestman2">&#40;Pestman 1993&#41;</ref>; P. Tor. 1 <ref target="#Peyron">&#40;Peyron
+                                1827-1829&#41;</ref>; Chrest. Mitt. 31 <ref target="#Mitteis">&#40;Mitteis
+                    1912&#41;</ref>. <lb/> Risorse online: <ref
+                        target="https://collezionepapiri.museoegizio.it/it-IT/document/572/?script=greek"
+                        >TPOP Cat. 2147</ref>; <ref target="https://www.trismegistos.org/text/3563"
+                        >TM 3563</ref>; <ref target="https://papyri.info/ddbdp/p.tor.choach;;12">PI
+                        p.tor.choach.12</ref>.</p>
+            </div>
+        </body>
+        <back>
+            <div type="Bibliografia">
+                <listBibl>
+                    <bibl xml:id="Baetens">BAETENS 2020: Baetens G., <emph>A Survey of Petitions and
+                            Related Documents from Ptolemaic Egypt, Trismegistos Online Publications
+                            Special Series. 5</emph>, Leuven, 2020. </bibl>
+                    <bibl xml:id="Bagnall1">BAGNALL 2004: Bagnall R. S., <emph>The Hellenistic
+                            period: historical sources in translation</emph>, Malden, MA :
+                        Blackwell, 2004.</bibl>
+
+                    <bibl xml:id="Bagnall2">BAGNALL 2011: Bagnall R. S., <emph>The Oxford Handbook
+                            of Papyrology</emph>, Oxford, Oxford University Press, 2011.</bibl>
+
+                    <bibl xml:id="Bataille">BATAILLE 1952: Bataille A., <emph>Les Memnonia:
+                            recherches de papyrologie et d'épigraphie grecques sur la nécropole de
+                            la Thèbes d'Égypte aux époques hellénistique et romain</emph>, Le Caire,
+                        Inst. Français d'Archéologie Orientale, 1952.</bibl>
+
+                    <bibl xml:id="Dibitonto"> DI BITONTO 1968: Di Bitonto A., <emph>Le petizioni ai
+                            funzionari nel periodo tolemaico: studio sul formulario</emph>, in
+                        Aegyptus (1968), Anno 48, No. 1/4, pp. 53-107.</bibl>
+                    <bibl xml:id="Mitteis">MITTEIS 1912: Mitteis L., <emph>Grundzüge und
+                            Chrestomathie der Papyruskunde</emph>, Leipzig, 1912.</bibl>
+                    <bibl xml:id="Montevecchi">MONTEVECCHI 1973: Montevecchi O. , <emph>La
+                            papirologia</emph>, Torino, Soc. Ed. Internat, 1973.</bibl>
+                    <bibl xml:id="Foucart">FOUCART 1924: Foucart G., <emph>Études thébaines. La
+                            belle fête de la vallée</emph>, in Bulletin de l'Institut français
+                        d'archéologie orientale 24, 1924, pp. 1-8.</bibl>
+
+                    <bibl xml:id="Paganini"> PAGANINI 2021: Paganini M. C. D., <emph>Gymnasia and
+                            Greek Identity in Ptolemaic Egypt</emph>, Oxford, 2021; online edn,
+                        Oxford Academic, 23 Dec. 2021. </bibl>
+
+                    <bibl xml:id="Pestman">PESTMAN 1992: Pestman P. W. (a cura di), <emph>Il
+                            processo di Hermias e altri documenti dell'archivio dei choachiti: (P.
+                            Tor. Choachiti) ; papiri greci e demotici conservati a Torino e in altre
+                            collezioni d'Italia, Serie 1 vol. 6</emph>, Torino: Ministero per i Beni
+                        Culturali e Ambientali, Soprintendenza al Museo delle Antichità
+                        Egizie.</bibl>
+                    <bibl xml:id="Pestman2"> PESTMAN 1993: Pestman P. W. (a cura di), <emph>The
+                            Archive of the Theban Choachytes : 2. century B. C.: a survey of the
+                            demotic and greek papyri contained in the archive</emph>,Leuven, in
+                        aedibus Peeters, 1993.</bibl>
+                    <bibl xml:id="Peyron"> PEYRON A. 1827-1829, <emph>Papyri graeci regii Musei
+                            Aegyptii taurinensis editi atque illustrati ab Amedeo
+                        Peyron</emph>,Taurini, ex typographia regia. </bibl>
+                    <bibl xml:id="Thomas"> THOMAS 1975: Thomas J. D., <emph>The epistrategos in
+                            Ptolemaic and Roman Egypt</emph>, Opladen 1975.</bibl>
+                    <bibl xml:id="Wilcken"> WILCKEN 1957: Wilcken U., <emph>Urkunden der
+                            Ptolemäerzeit : ältere Funde</emph> Berlin ; Leipzig, W. de Gruyter,
+                        1957.</bibl>
+                    <bibl xml:id="Zucker">ZUCKER 1931: Zucker F., <emph>ΓΥΜΝΑΣΙ΄ΑΡΧΟΣ ΚΩ΄ΜΗΣ.</emph>
+                        in Aegyptus 11, no. 4 (1931): 485–96.</bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>
